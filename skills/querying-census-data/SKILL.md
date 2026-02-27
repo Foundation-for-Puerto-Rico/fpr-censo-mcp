@@ -118,37 +118,77 @@ censo_contexto(variable="[variable]", geografia="[lugar]")
 
 ## Fallback directo al Census API
 
-Cuando el MCP server no está disponible, puedes consultar directamente:
+Cuando el MCP server `fpr-censo` no está conectado (no aparece en Connectors, o `censo_estado` no responde), usa el Census API directamente via curl.
+
+### Paso 1: Verificar API Key (OBLIGATORIO antes de cualquier query)
+
+**Antes de hacer CUALQUIER consulta**, verifica si el API key está disponible:
 
 ```bash
-# Estructura de URL del Census API
-curl "https://api.census.gov/data/{año}/{dataset}?get={variables}&for={geography}&in={parent_geography}&key={CENSUS_API_KEY}"
-
-# Ejemplo: Población de todos los municipios de PR
-curl "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01003_001E,B01003_001M&for=county:*&in=state:72"
+echo "CENSUS_API_KEY=${CENSUS_API_KEY:-NOT_SET}"
 ```
 
-**Para el fallback necesitas**:
-1. La variable de entorno `CENSUS_API_KEY` (opcional pero recomendada)
-2. Resolver nombres de municipios a FIPS codes. Los 78 municipios están en `data/municipios_pr.json` en el plugin root.
-3. Resolver barrios a FIPS codes. Están en `data/barrios_pr.json`.
+**Si la key es `NOT_SET` o está vacía**, DETENTE y muestra este mensaje al usuario:
 
-**Plugin root**: El directorio base de este skill, dos niveles arriba de este SKILL.md.
+> **Se necesita un API Key del Census Bureau para consultar datos.**
+>
+> El Census Bureau ofrece API keys gratuitas. Para obtener una:
+> 1. Ve a: https://api.census.gov/data/key_signup.html
+> 2. Llena el formulario con tu nombre y email
+> 3. Recibirás la key por email en unos minutos
+> 4. Una vez la tengas, configúrala en tu entorno antes de usar este plugin
+>
+> **Nota**: El API puede funcionar sin key pero con rate limiting severo que causa errores frecuentes. Se recomienda obtener la key antes de continuar.
+
+**Si el usuario quiere continuar sin key**: puedes intentar las consultas sin el parámetro `&key=`, pero advierte que puede fallar.
+
+### Paso 2: Resolver geografía
+
+**Plugin root**: El directorio base de este plugin. Desde este SKILL.md es dos niveles arriba. Los archivos de datos están en `data/` dentro del plugin root.
+
+Para resolver nombres de municipios y barrios a FIPS codes, lee los archivos JSON del plugin:
 
 ```bash
 PLUGIN_ROOT="<plugin-root>"
-# Leer FIPS de un municipio
+
+# municipios_pr.json es un array: [{"nombre": "Adjuntas", "fips": "001", "region": "Central"}, ...]
+# Buscar FIPS de un municipio
 cat "$PLUGIN_ROOT/data/municipios_pr.json" | python3 -c "
 import json, sys
 data = json.load(sys.stdin)
-# Buscar por nombre
 for m in data:
-    if 'vega baja' in m['nombre'].lower():
-        print(m['fips'])
+    if 'aguas buenas' in m['nombre'].lower():
+        print(f\"{m['nombre']}: fips={m['fips']}\")
+"
+
+# barrios_pr.json es un dict keyed por county FIPS: {"011": [{"nombre": "Juan Asencio", "fips": "40070"}, ...], ...}
+# El key del dict es el FIPS del municipio (county). Primero busca el municipio, luego sus barrios.
+cat "$PLUGIN_ROOT/data/barrios_pr.json" | python3 -c "
+import json, sys
+data = json.load(sys.stdin)
+county_fips = '011'  # Aguas Buenas
+for b in data.get(county_fips, []):
+    if 'juan' in b['nombre'].lower():
+        print(f\"{b['nombre']}: county subdivision fips={b['fips']}\")
 "
 ```
 
-### Parsear respuesta del Census API
+### Paso 3: Construir y ejecutar la consulta
+
+```bash
+# Estructura de URL
+curl -s "https://api.census.gov/data/{año}/{dataset}?get={variables}&for={geography}&in={parent_geography}&key=${CENSUS_API_KEY}"
+
+# Ejemplo: Población de todos los municipios de PR
+curl -s "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01003_001E,B01003_001M&for=county:*&in=state:72&key=${CENSUS_API_KEY}"
+
+# Ejemplo: Datos de un barrio específico (county subdivision)
+curl -s "https://api.census.gov/data/2022/acs/acs5?get=NAME,B01003_001E,B01003_001M&for=county+subdivision:*&in=state:72+county:011&key=${CENSUS_API_KEY}"
+```
+
+**Siempre incluir variables MOE** (sufijo `M` en vez de `E`) para evaluación de calidad.
+
+### Paso 4: Parsear la respuesta
 
 La respuesta es un JSON array-of-arrays donde la primera fila son headers:
 ```json
@@ -158,7 +198,42 @@ La respuesta es un JSON array-of-arrays donde la primera fila son headers:
 ]
 ```
 
-Siempre incluye la variable MOE (sufijo `M` en vez de `E`) para evaluación de calidad.
+Usa python3 para parsear y formatear como tabla markdown:
+
+```bash
+curl -s "URL" | python3 -c "
+import json, sys
+data = json.load(sys.stdin)
+headers = data[0]
+rows = data[1:]
+# Print markdown table
+print('| ' + ' | '.join(headers) + ' |')
+print('|' + '|'.join('---' for _ in headers) + '|')
+for row in rows:
+    print('| ' + ' | '.join(str(v) for v in row) + ' |')
+"
+```
+
+### Variables clave por perfil (para fallback)
+
+Cuando no tienes acceso al MCP y necesitas saber qué variables pedir:
+
+| Perfil | Variables principales |
+|--------|---------------------|
+| Población total | `B01003_001E` |
+| Edad mediana | `B01002_001E` |
+| Ingreso mediano hogar | `B19013_001E` |
+| Pobreza (%) | `B17001_002E` (bajo pobreza), `B17001_001E` (universo) |
+| Desempleo | `B23025_005E` (desempleados), `B23025_003E` (fuerza laboral) |
+| Educación (bachillerato+) | `B15003_022E` through `B15003_025E` |
+| Viviendas ocupadas | `B25002_002E` |
+| Viviendas vacantes | `B25002_003E` |
+| Valor mediano vivienda | `B25077_001E` |
+| Renta mediana | `B25064_001E` |
+| Sin seguro médico | `B27010_017E` |
+| Acceso a internet | `B28002_004E` (broadband) |
+
+Para cada variable `_E`, pide también la `_M` correspondiente para el MOE.
 
 ## Referencias
 
