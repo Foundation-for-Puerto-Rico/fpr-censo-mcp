@@ -63,6 +63,7 @@ fpr-censo-mcp/
 
 | Tool | Descripción | Read-only |
 |------|-------------|-----------|
+| `censo_estado` | Estado del servidor, versión, y verificación de API key | ✅ |
 | `censo_listar_datasets` | Datasets disponibles para PR con años | ✅ |
 | `censo_buscar_variables` | Buscar variables por keyword en español/inglés | ✅ |
 | `censo_listar_geografias` | Niveles geográficos disponibles para un dataset | ✅ |

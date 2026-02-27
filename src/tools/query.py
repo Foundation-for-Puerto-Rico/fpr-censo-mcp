@@ -253,33 +253,48 @@ def _format_query_results(
     """Formatea resultados de query en markdown."""
     lines = [f"# Consulta: {dataset} ({año})", f"**Geografía**: {geografia}\n"]
 
+    # Filtrar variables MOE (_M) — se muestran junto a su estimado, no como columna aparte
+    estimate_vars = [v for v in variables if not (v.endswith("M") and "_" in v and v[:-1] + "E" in variables)]
+
     # Build headers
-    var_defs = {v: profiles.find_variable(v) for v in variables}
+    var_defs = {v: profiles.find_variable(v) for v in estimate_vars}
     headers = ["Nombre"]
-    for v in variables:
+    for v in estimate_vars:
         vd = var_defs.get(v)
         name = vd.nombre_es if vd else v
         headers.append(name)
-        # Add quality column
+        # Add MOE + quality columns if MOE data exists
         moe_code = v[:-1] + "M" if v.endswith("E") else None
         if moe_code and any(moe_code in row for row in rows[:1]):
-            headers.append("Calidad")
+            headers.extend(["MOE", "Calidad"])
 
     lines.append("| " + " | ".join(headers) + " |")
     lines.append("|" + "|".join("---" for _ in headers) + "|")
 
     for row in rows:
         cols = [str(row.get("NAME", ""))]
-        for v in variables:
+        for v in estimate_vars:
             vd = var_defs.get(v)
             est = row.get(v)
             fmt = vd.formato if vd else "conteo"
             moe_code = v[:-1] + "M" if v.endswith("E") else None
             moe = row.get(moe_code) if moe_code else None
 
-            cols.append(formato_estimado(est, fmt, moe))
+            cols.append(formato_estimado(est, fmt))
 
             if moe_code and moe_code in row:
+                # Formatear MOE: sentinels negativos → "—"
+                if moe is not None and moe >= 0:
+                    if fmt == "moneda":
+                        moe_fmt = f"±${int(abs(moe)):,}"
+                    elif fmt == "porcentaje":
+                        moe_fmt = f"±{abs(moe):.1f}%"
+                    else:
+                        moe_fmt = f"±{int(abs(moe)):,}"
+                else:
+                    moe_fmt = "—"
+                cols.append(moe_fmt)
+
                 qa = evaluar_calidad(float(est), float(moe)) if est is not None and moe is not None else None
                 cols.append(qa.emoji if qa else "—")
 
