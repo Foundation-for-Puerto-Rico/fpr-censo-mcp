@@ -1,0 +1,392 @@
+[
+  {
+    "nombre": "Adjuntas",
+    "fips": "001",
+    "region": "Central"
+  },
+  {
+    "nombre": "Aguada",
+    "fips": "003",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "Aguadilla",
+    "fips": "005",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "Aguas Buenas",
+    "fips": "007",
+    "region": "Central"
+  },
+  {
+    "nombre": "Aibonito",
+    "fips": "009",
+    "region": "Central"
+  },
+  {
+    "nombre": "Añasco",
+    "fips": "011",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "Arecibo",
+    "fips": "013",
+    "region": "Norte"
+  },
+  {
+    "nombre": "Arroyo",
+    "fips": "015",
+    "region": "Sur"
+  },
+  {
+    "nombre": "Barceloneta",
+    "fips": "017",
+    "region": "Norte"
+  },
+  {
+    "nombre": "Barranquitas",
+    "fips": "019",
+    "region": "Central"
+  },
+  {
+    "nombre": "Bayamón",
+    "fips": "021",
+    "region": "Metro"
+  },
+  {
+    "nombre": "Cabo Rojo",
+    "fips": "023",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "Caguas",
+    "fips": "025",
+    "region": "Central"
+  },
+  {
+    "nombre": "Camuy",
+    "fips": "027",
+    "region": "Norte"
+  },
+  {
+    "nombre": "Canóvanas",
+    "fips": "029",
+    "region": "Metro"
+  },
+  {
+    "nombre": "Carolina",
+    "fips": "031",
+    "region": "Metro"
+  },
+  {
+    "nombre": "Cataño",
+    "fips": "033",
+    "region": "Metro"
+  },
+  {
+    "nombre": "Cayey",
+    "fips": "035",
+    "region": "Central"
+  },
+  {
+    "nombre": "Ceiba",
+    "fips": "037",
+    "region": "Este"
+  },
+  {
+    "nombre": "Ciales",
+    "fips": "039",
+    "region": "Norte"
+  },
+  {
+    "nombre": "Cidra",
+    "fips": "041",
+    "region": "Central"
+  },
+  {
+    "nombre": "Coamo",
+    "fips": "043",
+    "region": "Sur"
+  },
+  {
+    "nombre": "Comerío",
+    "fips": "045",
+    "region": "Central"
+  },
+  {
+    "nombre": "Corozal",
+    "fips": "047",
+    "region": "Central"
+  },
+  {
+    "nombre": "Culebra",
+    "fips": "049",
+    "region": "Este"
+  },
+  {
+    "nombre": "Dorado",
+    "fips": "051",
+    "region": "Metro"
+  },
+  {
+    "nombre": "Fajardo",
+    "fips": "053",
+    "region": "Este"
+  },
+  {
+    "nombre": "Florida",
+    "fips": "054",
+    "region": "Norte"
+  },
+  {
+    "nombre": "Guánica",
+    "fips": "055",
+    "region": "Sur"
+  },
+  {
+    "nombre": "Guayama",
+    "fips": "057",
+    "region": "Sur"
+  },
+  {
+    "nombre": "Guayanilla",
+    "fips": "059",
+    "region": "Sur"
+  },
+  {
+    "nombre": "Guaynabo",
+    "fips": "061",
+    "region": "Metro"
+  },
+  {
+    "nombre": "Gurabo",
+    "fips": "063",
+    "region": "Este"
+  },
+  {
+    "nombre": "Hatillo",
+    "fips": "065",
+    "region": "Norte"
+  },
+  {
+    "nombre": "Hormigueros",
+    "fips": "067",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "Humacao",
+    "fips": "069",
+    "region": "Este"
+  },
+  {
+    "nombre": "Isabela",
+    "fips": "071",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "Jayuya",
+    "fips": "073",
+    "region": "Central"
+  },
+  {
+    "nombre": "Juana Díaz",
+    "fips": "075",
+    "region": "Sur"
+  },
+  {
+    "nombre": "Juncos",
+    "fips": "077",
+    "region": "Este"
+  },
+  {
+    "nombre": "Lajas",
+    "fips": "079",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "Lares",
+    "fips": "081",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "Las Marías",
+    "fips": "083",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "Las Piedras",
+    "fips": "085",
+    "region": "Este"
+  },
+  {
+    "nombre": "Loíza",
+    "fips": "087",
+    "region": "Metro"
+  },
+  {
+    "nombre": "Luquillo",
+    "fips": "089",
+    "region": "Este"
+  },
+  {
+    "nombre": "Manatí",
+    "fips": "091",
+    "region": "Norte"
+  },
+  {
+    "nombre": "Maricao",
+    "fips": "093",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "Maunabo",
+    "fips": "095",
+    "region": "Sur"
+  },
+  {
+    "nombre": "Mayagüez",
+    "fips": "097",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "Moca",
+    "fips": "099",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "Morovis",
+    "fips": "101",
+    "region": "Norte"
+  },
+  {
+    "nombre": "Naguabo",
+    "fips": "103",
+    "region": "Este"
+  },
+  {
+    "nombre": "Naranjito",
+    "fips": "105",
+    "region": "Central"
+  },
+  {
+    "nombre": "Orocovis",
+    "fips": "107",
+    "region": "Central"
+  },
+  {
+    "nombre": "Patillas",
+    "fips": "109",
+    "region": "Sur"
+  },
+  {
+    "nombre": "Peñuelas",
+    "fips": "111",
+    "region": "Sur"
+  },
+  {
+    "nombre": "Ponce",
+    "fips": "113",
+    "region": "Sur"
+  },
+  {
+    "nombre": "Quebradillas",
+    "fips": "115",
+    "region": "Norte"
+  },
+  {
+    "nombre": "Rincón",
+    "fips": "117",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "Río Grande",
+    "fips": "119",
+    "region": "Este"
+  },
+  {
+    "nombre": "Sabana Grande",
+    "fips": "121",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "Salinas",
+    "fips": "123",
+    "region": "Sur"
+  },
+  {
+    "nombre": "San Germán",
+    "fips": "125",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "San Juan",
+    "fips": "127",
+    "region": "Metro"
+  },
+  {
+    "nombre": "San Lorenzo",
+    "fips": "129",
+    "region": "Este"
+  },
+  {
+    "nombre": "San Sebastián",
+    "fips": "131",
+    "region": "Oeste"
+  },
+  {
+    "nombre": "Santa Isabel",
+    "fips": "133",
+    "region": "Sur"
+  },
+  {
+    "nombre": "Toa Alta",
+    "fips": "135",
+    "region": "Metro"
+  },
+  {
+    "nombre": "Toa Baja",
+    "fips": "137",
+    "region": "Metro"
+  },
+  {
+    "nombre": "Trujillo Alto",
+    "fips": "139",
+    "region": "Metro"
+  },
+  {
+    "nombre": "Utuado",
+    "fips": "141",
+    "region": "Central"
+  },
+  {
+    "nombre": "Vega Alta",
+    "fips": "143",
+    "region": "Norte"
+  },
+  {
+    "nombre": "Vega Baja",
+    "fips": "145",
+    "region": "Norte"
+  },
+  {
+    "nombre": "Vieques",
+    "fips": "147",
+    "region": "Este"
+  },
+  {
+    "nombre": "Villalba",
+    "fips": "149",
+    "region": "Sur"
+  },
+  {
+    "nombre": "Yabucoa",
+    "fips": "151",
+    "region": "Este"
+  },
+  {
+    "nombre": "Yauco",
+    "fips": "153",
+    "region": "Oeste"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "demografico": [
+    {"code": "B01003_001E", "moe_code": "B01003_001M", "nombre_es": "Población total", "nombre_en": "Total population", "universo": "Total population", "formato": "conteo", "notas": null},
+    {"code": "B01002_001E", "moe_code": "B01002_001M", "nombre_es": "Edad mediana", "nombre_en": "Median age", "universo": "Total population", "formato": "mediana", "notas": null},
+    {"code": "B01001_002E", "moe_code": "B01001_002M", "nombre_es": "Población masculina", "nombre_en": "Male population", "universo": "Total population", "formato": "conteo", "notas": null},
+    {"code": "B01001_026E", "moe_code": "B01001_026M", "nombre_es": "Población femenina", "nombre_en": "Female population", "universo": "Total population", "formato": "conteo", "notas": null},
+    {"code": "B09001_001E", "moe_code": "B09001_001M", "nombre_es": "Menores de 18 años", "nombre_en": "Population under 18", "universo": "Total population", "formato": "conteo", "notas": null},
+    {"code": "B03003_003E", "moe_code": "B03003_003M", "nombre_es": "Hispanic o Latino", "nombre_en": "Hispanic or Latino", "universo": "Total population", "formato": "conteo", "notas": null}
+  ],
+  "economico": [
+    {"code": "B19013_001E", "moe_code": "B19013_001M", "nombre_es": "Ingreso mediano del hogar", "nombre_en": "Median household income", "universo": "Hogares", "formato": "moneda", "notas": null},
+    {"code": "B19301_001E", "moe_code": "B19301_001M", "nombre_es": "Ingreso per cápita", "nombre_en": "Per capita income", "universo": "Total population", "formato": "moneda", "notas": null},
+    {"code": "B17001_002E", "moe_code": "B17001_002M", "nombre_es": "Personas bajo nivel de pobreza", "nombre_en": "Population below poverty level", "universo": "Population for whom poverty status is determined", "formato": "conteo", "notas": null},
+    {"code": "B23025_005E", "moe_code": "B23025_005M", "nombre_es": "Desempleados", "nombre_en": "Unemployed", "universo": "Population 16 years and over", "formato": "conteo", "notas": "Dividir entre B23025_002E para tasa de desempleo"},
+    {"code": "B23025_002E", "moe_code": "B23025_002M", "nombre_es": "Fuerza laboral", "nombre_en": "Labor force", "universo": "Population 16 years and over", "formato": "conteo", "notas": null},
+    {"code": "B22003_002E", "moe_code": "B22003_002M", "nombre_es": "Hogares con SNAP/cupones", "nombre_en": "Households receiving SNAP", "universo": "Hogares", "formato": "conteo", "notas": null}
+  ],
+  "vivienda": [
+    {"code": "B25001_001E", "moe_code": "B25001_001M", "nombre_es": "Unidades de vivienda total", "nombre_en": "Total housing units", "universo": "Housing units", "formato": "conteo", "notas": null},
+    {"code": "B25002_002E", "moe_code": "B25002_002M", "nombre_es": "Viviendas ocupadas", "nombre_en": "Occupied housing units", "universo": "Housing units", "formato": "conteo", "notas": null},
+    {"code": "B25002_003E", "moe_code": "B25002_003M", "nombre_es": "Viviendas vacantes", "nombre_en": "Vacant housing units", "universo": "Housing units", "formato": "conteo", "notas": null},
+    {"code": "B25077_001E", "moe_code": "B25077_001M", "nombre_es": "Valor mediano de vivienda", "nombre_en": "Median home value", "universo": "Owner-occupied housing units", "formato": "moneda", "notas": null},
+    {"code": "B25064_001E", "moe_code": "B25064_001M", "nombre_es": "Renta mediana", "nombre_en": "Median gross rent", "universo": "Renter-occupied housing units paying rent", "formato": "moneda", "notas": null},
+    {"code": "B25081_002E", "moe_code": "B25081_002M", "nombre_es": "Viviendas sin hipoteca", "nombre_en": "Housing units without mortgage", "universo": "Owner-occupied housing units", "formato": "conteo", "notas": null}
+  ],
+  "educacion": [
+    {"code": "B15003_017E", "moe_code": "B15003_017M", "nombre_es": "Diploma de escuela superior", "nombre_en": "Regular high school diploma", "universo": "Population 25 years and over", "formato": "conteo", "notas": "Parte de la agregación bachillerato o más"},
+    {"code": "B15003_022E", "moe_code": "B15003_022M", "nombre_es": "Grado de bachillerato (BA)", "nombre_en": "Bachelor's degree", "universo": "Population 25 years and over", "formato": "conteo", "notas": null},
+    {"code": "B15003_023E", "moe_code": "B15003_023M", "nombre_es": "Grado de maestría", "nombre_en": "Master's degree", "universo": "Population 25 years and over", "formato": "conteo", "notas": null},
+    {"code": "B15003_025E", "moe_code": "B15003_025M", "nombre_es": "Grado doctoral", "nombre_en": "Doctorate degree", "universo": "Population 25 years and over", "formato": "conteo", "notas": null},
+    {"code": "B14001_002E", "moe_code": "B14001_002M", "nombre_es": "Matrícula escolar (3+)", "nombre_en": "Enrolled in school (3+)", "universo": "Population 3 years and over", "formato": "conteo", "notas": null}
+  ],
+  "salud_social": [
+    {"code": "B27001_005E", "moe_code": "B27001_005M", "nombre_es": "Sin seguro médico (menores 19)", "nombre_en": "No health insurance (under 19)", "universo": "Civilian noninstitutionalized population", "formato": "conteo", "notas": null},
+    {"code": "B21001_002E", "moe_code": "B21001_002M", "nombre_es": "Veteranos", "nombre_en": "Veterans", "universo": "Civilian population 18 years and over", "formato": "conteo", "notas": null},
+    {"code": "B18101_004E", "moe_code": "B18101_004M", "nombre_es": "Con discapacidad (menores 18)", "nombre_en": "With disability (under 18)", "universo": "Civilian noninstitutionalized population", "formato": "conteo", "notas": "Parte de la serie de discapacidad"}
+  ],
+  "infraestructura": [
+    {"code": "B28002_004E", "moe_code": "B28002_004M", "nombre_es": "Hogares con internet de banda ancha", "nombre_en": "Households with broadband internet", "universo": "Hogares", "formato": "conteo", "notas": null},
+    {"code": "B08201_002E", "moe_code": "B08201_002M", "nombre_es": "Hogares sin vehículo", "nombre_en": "Households with no vehicle", "universo": "Hogares", "formato": "conteo", "notas": null},
+    {"code": "B08301_010E", "moe_code": "B08301_010M", "nombre_es": "Transporte público al trabajo", "nombre_en": "Public transportation to work", "universo": "Workers 16 years and over", "formato": "conteo", "notas": null},
+    {"code": "B08301_003E", "moe_code": "B08301_003M", "nombre_es": "Viaja solo en carro al trabajo", "nombre_en": "Drove alone to work", "universo": "Workers 16 years and over", "formato": "conteo", "notas": null}
+  ]
+}

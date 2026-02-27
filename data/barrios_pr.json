@@ -1,0 +1,3762 @@
+{
+  "001": [
+    {
+      "nombre": "Adjuntas",
+      "fips": "00401"
+    },
+    {
+      "nombre": "Capáez",
+      "fips": "13645"
+    },
+    {
+      "nombre": "Garzas",
+      "fips": "30458"
+    },
+    {
+      "nombre": "Guayabo Dulce",
+      "fips": "32049"
+    },
+    {
+      "nombre": "Guayo",
+      "fips": "32608"
+    },
+    {
+      "nombre": "Guilarte",
+      "fips": "32780"
+    },
+    {
+      "nombre": "Juan González",
+      "fips": "39273"
+    },
+    {
+      "nombre": "Limaní",
+      "fips": "45422"
+    },
+    {
+      "nombre": "Pellejas",
+      "fips": "60773"
+    },
+    {
+      "nombre": "Portillo",
+      "fips": "63955"
+    },
+    {
+      "nombre": "Portugués",
+      "fips": "63998"
+    },
+    {
+      "nombre": "Saltillo",
+      "fips": "74963"
+    },
+    {
+      "nombre": "Tanamá",
+      "fips": "81714"
+    },
+    {
+      "nombre": "Vegas Abajo",
+      "fips": "85584"
+    },
+    {
+      "nombre": "Vegas Arriba",
+      "fips": "85627"
+    },
+    {
+      "nombre": "Yahuecas",
+      "fips": "87949"
+    },
+    {
+      "nombre": "Yayales",
+      "fips": "88250"
+    }
+  ],
+  "003": [
+    {
+      "nombre": "Aguada",
+      "fips": "00659"
+    },
+    {
+      "nombre": "Asomante",
+      "fips": "04185"
+    },
+    {
+      "nombre": "Atalaya",
+      "fips": "04400"
+    },
+    {
+      "nombre": "Carrizal",
+      "fips": "14591"
+    },
+    {
+      "nombre": "Cerro Gordo",
+      "fips": "17085"
+    },
+    {
+      "nombre": "Cruces",
+      "fips": "21772"
+    },
+    {
+      "nombre": "Espinar",
+      "fips": "27233"
+    },
+    {
+      "nombre": "Guaniquilla",
+      "fips": "31318"
+    },
+    {
+      "nombre": "Guanábano",
+      "fips": "30931"
+    },
+    {
+      "nombre": "Guayabo",
+      "fips": "31963"
+    },
+    {
+      "nombre": "Jagüey",
+      "fips": "37596"
+    },
+    {
+      "nombre": "Lagunas",
+      "fips": "40907"
+    },
+    {
+      "nombre": "Mal Paso",
+      "fips": "49421"
+    },
+    {
+      "nombre": "Mamey",
+      "fips": "49550"
+    },
+    {
+      "nombre": "Marías",
+      "fips": "51098"
+    },
+    {
+      "nombre": "Naranjo",
+      "fips": "56215"
+    },
+    {
+      "nombre": "Piedras Blancas",
+      "fips": "61719"
+    },
+    {
+      "nombre": "Río Grande",
+      "fips": "70921"
+    }
+  ],
+  "005": [
+    {
+      "nombre": "Aguacate",
+      "fips": "00530"
+    },
+    {
+      "nombre": "Aguadilla",
+      "fips": "00788"
+    },
+    {
+      "nombre": "Arenales",
+      "fips": "03626"
+    },
+    {
+      "nombre": "Borinquen",
+      "fips": "08313"
+    },
+    {
+      "nombre": "Caimital Alto",
+      "fips": "10592"
+    },
+    {
+      "nombre": "Caimital Bajo",
+      "fips": "10635"
+    },
+    {
+      "nombre": "Camaceyes",
+      "fips": "11237"
+    },
+    {
+      "nombre": "Ceiba Alta",
+      "fips": "16225"
+    },
+    {
+      "nombre": "Ceiba Baja",
+      "fips": "16268"
+    },
+    {
+      "nombre": "Corrales",
+      "fips": "20955"
+    },
+    {
+      "nombre": "Guerrero",
+      "fips": "32694"
+    },
+    {
+      "nombre": "Maleza Alta",
+      "fips": "49292"
+    },
+    {
+      "nombre": "Maleza Baja",
+      "fips": "49335"
+    },
+    {
+      "nombre": "Montaña",
+      "fips": "54108"
+    },
+    {
+      "nombre": "Palmar",
+      "fips": "57935"
+    },
+    {
+      "nombre": "Victoria",
+      "fips": "85842"
+    }
+  ],
+  "007": [
+    {
+      "nombre": "Aguas Buenas",
+      "fips": "00917"
+    },
+    {
+      "nombre": "Bairoa",
+      "fips": "04529"
+    },
+    {
+      "nombre": "Bayamoncito",
+      "fips": "06894"
+    },
+    {
+      "nombre": "Cagüitas",
+      "fips": "10506"
+    },
+    {
+      "nombre": "Jagüeyes",
+      "fips": "37682"
+    },
+    {
+      "nombre": "Juan Asencio",
+      "fips": "39230"
+    },
+    {
+      "nombre": "Mula",
+      "fips": "55441"
+    },
+    {
+      "nombre": "Mulita",
+      "fips": "55527"
+    },
+    {
+      "nombre": "Sonadora",
+      "fips": "80467"
+    },
+    {
+      "nombre": "Sumidero",
+      "fips": "80811"
+    }
+  ],
+  "009": [
+    {
+      "nombre": "Aibonito",
+      "fips": "01261"
+    },
+    {
+      "nombre": "Algarrobo",
+      "fips": "01605"
+    },
+    {
+      "nombre": "Asomante",
+      "fips": "04271"
+    },
+    {
+      "nombre": "Caonillas",
+      "fips": "13344"
+    },
+    {
+      "nombre": "Cuyón",
+      "fips": "22890"
+    },
+    {
+      "nombre": "Llanos",
+      "fips": "45895"
+    },
+    {
+      "nombre": "Pasto",
+      "fips": "60042"
+    },
+    {
+      "nombre": "Plata",
+      "fips": "62536"
+    },
+    {
+      "nombre": "Robles",
+      "fips": "71867"
+    }
+  ],
+  "011": [
+    {
+      "nombre": "Añasco",
+      "fips": "02637"
+    },
+    {
+      "nombre": "Añasco Abajo",
+      "fips": "02723"
+    },
+    {
+      "nombre": "Añasco Arriba",
+      "fips": "02766"
+    },
+    {
+      "nombre": "Caguabo",
+      "fips": "10248"
+    },
+    {
+      "nombre": "Caracol",
+      "fips": "13989"
+    },
+    {
+      "nombre": "Carreras",
+      "fips": "14462"
+    },
+    {
+      "nombre": "Casey Abajo",
+      "fips": "14978"
+    },
+    {
+      "nombre": "Casey Arriba",
+      "fips": "15021"
+    },
+    {
+      "nombre": "Cerro Gordo",
+      "fips": "17128"
+    },
+    {
+      "nombre": "Cidra",
+      "fips": "18031"
+    },
+    {
+      "nombre": "Corcovada",
+      "fips": "20439"
+    },
+    {
+      "nombre": "Dagüey",
+      "fips": "23148"
+    },
+    {
+      "nombre": "Espino",
+      "fips": "27276"
+    },
+    {
+      "nombre": "Hatillo",
+      "fips": "33253"
+    },
+    {
+      "nombre": "Humatas",
+      "fips": "35661"
+    },
+    {
+      "nombre": "Marías",
+      "fips": "51141"
+    },
+    {
+      "nombre": "Miraflores",
+      "fips": "53463"
+    },
+    {
+      "nombre": "Ovejas",
+      "fips": "57591"
+    },
+    {
+      "nombre": "Piñales",
+      "fips": "61934"
+    },
+    {
+      "nombre": "Playa",
+      "fips": "62665"
+    },
+    {
+      "nombre": "Quebrada Larga",
+      "fips": "67567"
+    },
+    {
+      "nombre": "Río Arriba",
+      "fips": "70147"
+    },
+    {
+      "nombre": "Río Cañas",
+      "fips": "70534"
+    }
+  ],
+  "013": [
+    {
+      "nombre": "Arecibo",
+      "fips": "03411"
+    },
+    {
+      "nombre": "Arenalejos",
+      "fips": "03540"
+    },
+    {
+      "nombre": "Arrozal",
+      "fips": "04056"
+    },
+    {
+      "nombre": "Cambalache",
+      "fips": "11323"
+    },
+    {
+      "nombre": "Carreras",
+      "fips": "14505"
+    },
+    {
+      "nombre": "Domingo Ruíz",
+      "fips": "23750"
+    },
+    {
+      "nombre": "Dominguito",
+      "fips": "23836"
+    },
+    {
+      "nombre": "Esperanza",
+      "fips": "27061"
+    },
+    {
+      "nombre": "Factor",
+      "fips": "27835"
+    },
+    {
+      "nombre": "Garrochales",
+      "fips": "30329"
+    },
+    {
+      "nombre": "Hato Abajo",
+      "fips": "33511"
+    },
+    {
+      "nombre": "Hato Arriba",
+      "fips": "33554"
+    },
+    {
+      "nombre": "Hato Viejo",
+      "fips": "34199"
+    },
+    {
+      "nombre": "Islote",
+      "fips": "36865"
+    },
+    {
+      "nombre": "Miraflores",
+      "fips": "53549"
+    },
+    {
+      "nombre": "Río Arriba",
+      "fips": "70190"
+    },
+    {
+      "nombre": "Sabana Hoyos",
+      "fips": "73759"
+    },
+    {
+      "nombre": "Santana",
+      "fips": "78704"
+    },
+    {
+      "nombre": "Tanamá",
+      "fips": "81757"
+    }
+  ],
+  "015": [
+    {
+      "nombre": "Ancones",
+      "fips": "02809"
+    },
+    {
+      "nombre": "Arroyo",
+      "fips": "03970"
+    },
+    {
+      "nombre": "Guásimas",
+      "fips": "31748"
+    },
+    {
+      "nombre": "Palmas",
+      "fips": "58408"
+    },
+    {
+      "nombre": "Pitahaya",
+      "fips": "62192"
+    },
+    {
+      "nombre": "Yaurel",
+      "fips": "88164"
+    }
+  ],
+  "017": [
+    {
+      "nombre": "Barceloneta",
+      "fips": "05389"
+    },
+    {
+      "nombre": "Florida Afuera",
+      "fips": "29039"
+    },
+    {
+      "nombre": "Garrochales",
+      "fips": "30415"
+    },
+    {
+      "nombre": "Palmas Altas",
+      "fips": "58580"
+    }
+  ],
+  "019": [
+    {
+      "nombre": "Barrancas",
+      "fips": "05604"
+    },
+    {
+      "nombre": "Barranquitas",
+      "fips": "05733"
+    },
+    {
+      "nombre": "Cañabón",
+      "fips": "12097"
+    },
+    {
+      "nombre": "Helechal",
+      "fips": "34500"
+    },
+    {
+      "nombre": "Honduras",
+      "fips": "34887"
+    },
+    {
+      "nombre": "Palo Hincado",
+      "fips": "58795"
+    },
+    {
+      "nombre": "Quebrada Grande",
+      "fips": "67309"
+    },
+    {
+      "nombre": "Quebradillas",
+      "fips": "67997"
+    }
+  ],
+  "021": [
+    {
+      "nombre": "Bayamón",
+      "fips": "06636"
+    },
+    {
+      "nombre": "Buena Vista",
+      "fips": "09130"
+    },
+    {
+      "nombre": "Cerro Gordo",
+      "fips": "17171"
+    },
+    {
+      "nombre": "Dajaos",
+      "fips": "23191"
+    },
+    {
+      "nombre": "Guaraguao Abajo",
+      "fips": "31619"
+    },
+    {
+      "nombre": "Guaraguao Arriba",
+      "fips": "31662"
+    },
+    {
+      "nombre": "Hato Tejas",
+      "fips": "34156"
+    },
+    {
+      "nombre": "Juan Sánchez",
+      "fips": "39402"
+    },
+    {
+      "nombre": "Minillas",
+      "fips": "53162"
+    },
+    {
+      "nombre": "Nuevo",
+      "fips": "56774"
+    },
+    {
+      "nombre": "Pájaros",
+      "fips": "57763"
+    },
+    {
+      "nombre": "Santa Olaya",
+      "fips": "78790"
+    }
+  ],
+  "023": [
+    {
+      "nombre": "Bajura",
+      "fips": "04787"
+    },
+    {
+      "nombre": "Boquerón",
+      "fips": "08012"
+    },
+    {
+      "nombre": "Cabo Rojo",
+      "fips": "09818"
+    },
+    {
+      "nombre": "Guanajibo",
+      "fips": "31017"
+    },
+    {
+      "nombre": "Llanos Costa",
+      "fips": "46067"
+    },
+    {
+      "nombre": "Llanos Tuna",
+      "fips": "46153"
+    },
+    {
+      "nombre": "Miradero",
+      "fips": "53377"
+    },
+    {
+      "nombre": "Monte Grande",
+      "fips": "54409"
+    },
+    {
+      "nombre": "Pedernales",
+      "fips": "60601"
+    }
+  ],
+  "025": [
+    {
+      "nombre": "Bairoa",
+      "fips": "04615"
+    },
+    {
+      "nombre": "Beatriz",
+      "fips": "07152"
+    },
+    {
+      "nombre": "Borinquen",
+      "fips": "08356"
+    },
+    {
+      "nombre": "Caguas",
+      "fips": "10377"
+    },
+    {
+      "nombre": "Cañaboncito",
+      "fips": "12226"
+    },
+    {
+      "nombre": "Cañabón",
+      "fips": "12140"
+    },
+    {
+      "nombre": "Río Cañas",
+      "fips": "70577"
+    },
+    {
+      "nombre": "San Antonio",
+      "fips": "75651"
+    },
+    {
+      "nombre": "San Salvador",
+      "fips": "77371"
+    },
+    {
+      "nombre": "Tomás de Castro",
+      "fips": "82918"
+    },
+    {
+      "nombre": "Turabo",
+      "fips": "83950"
+    }
+  ],
+  "027": [
+    {
+      "nombre": "Abra Honda",
+      "fips": "00100"
+    },
+    {
+      "nombre": "Camuy",
+      "fips": "11968"
+    },
+    {
+      "nombre": "Camuy Arriba",
+      "fips": "12011"
+    },
+    {
+      "nombre": "Cibao",
+      "fips": "17859"
+    },
+    {
+      "nombre": "Ciénagas",
+      "fips": "18375"
+    },
+    {
+      "nombre": "Membrillo",
+      "fips": "52990"
+    },
+    {
+      "nombre": "Piedra Gorda",
+      "fips": "61633"
+    },
+    {
+      "nombre": "Puente",
+      "fips": "65116"
+    },
+    {
+      "nombre": "Puertos",
+      "fips": "65847"
+    },
+    {
+      "nombre": "Quebrada",
+      "fips": "66707"
+    },
+    {
+      "nombre": "Santiago",
+      "fips": "79349"
+    },
+    {
+      "nombre": "Yeguada",
+      "fips": "88336"
+    },
+    {
+      "nombre": "Zanja",
+      "fips": "88508"
+    }
+  ],
+  "029": [
+    {
+      "nombre": "Canóvanas",
+      "fips": "12850"
+    },
+    {
+      "nombre": "Canóvanas",
+      "fips": "12871"
+    },
+    {
+      "nombre": "Cubuy",
+      "fips": "22202"
+    },
+    {
+      "nombre": "Hato Puerco",
+      "fips": "33812"
+    },
+    {
+      "nombre": "Lomas",
+      "fips": "46669"
+    },
+    {
+      "nombre": "Torrecilla Alta",
+      "fips": "83047"
+    }
+  ],
+  "031": [
+    {
+      "nombre": "Barrazas",
+      "fips": "05819"
+    },
+    {
+      "nombre": "Buena Vista",
+      "fips": "09150"
+    },
+    {
+      "nombre": "Cacao",
+      "fips": "09947"
+    },
+    {
+      "nombre": "Cangrejo Arriba",
+      "fips": "12699"
+    },
+    {
+      "nombre": "Canovanillas",
+      "fips": "13086"
+    },
+    {
+      "nombre": "Carolina",
+      "fips": "14333"
+    },
+    {
+      "nombre": "Carruzos",
+      "fips": "14763"
+    },
+    {
+      "nombre": "Cedro",
+      "fips": "15709"
+    },
+    {
+      "nombre": "Martín González",
+      "fips": "51571"
+    },
+    {
+      "nombre": "Sabana Abajo",
+      "fips": "73286"
+    },
+    {
+      "nombre": "San Antón",
+      "fips": "75479"
+    },
+    {
+      "nombre": "Santa Cruz",
+      "fips": "77973"
+    },
+    {
+      "nombre": "Trujillo Bajo",
+      "fips": "83735"
+    }
+  ],
+  "033": [
+    {
+      "nombre": "Cataño",
+      "fips": "15236"
+    },
+    {
+      "nombre": "Palmas",
+      "fips": "58451"
+    }
+  ],
+  "035": [
+    {
+      "nombre": "Beatriz",
+      "fips": "07238"
+    },
+    {
+      "nombre": "Cayey",
+      "fips": "15537"
+    },
+    {
+      "nombre": "Cedro",
+      "fips": "15752"
+    },
+    {
+      "nombre": "Cercadillo",
+      "fips": "16913"
+    },
+    {
+      "nombre": "Culebras Alto",
+      "fips": "22718"
+    },
+    {
+      "nombre": "Culebras Bajo",
+      "fips": "22761"
+    },
+    {
+      "nombre": "Farallón",
+      "fips": "28093"
+    },
+    {
+      "nombre": "Guavate",
+      "fips": "31834"
+    },
+    {
+      "nombre": "Jájome Alto",
+      "fips": "37854"
+    },
+    {
+      "nombre": "Jájome Bajo",
+      "fips": "37897"
+    },
+    {
+      "nombre": "Lapa",
+      "fips": "41638"
+    },
+    {
+      "nombre": "Matón Abajo",
+      "fips": "52087"
+    },
+    {
+      "nombre": "Matón Arriba",
+      "fips": "52130"
+    },
+    {
+      "nombre": "Monte Llano",
+      "fips": "54452"
+    },
+    {
+      "nombre": "Pasto Viejo",
+      "fips": "60300"
+    },
+    {
+      "nombre": "Pedro Avila",
+      "fips": "60644"
+    },
+    {
+      "nombre": "Piedras",
+      "fips": "61676"
+    },
+    {
+      "nombre": "Quebrada Arriba",
+      "fips": "67051"
+    },
+    {
+      "nombre": "Rincón",
+      "fips": "69459"
+    },
+    {
+      "nombre": "Sumido",
+      "fips": "80854"
+    },
+    {
+      "nombre": "Toíta",
+      "fips": "82746"
+    },
+    {
+      "nombre": "Vegas",
+      "fips": "85498"
+    }
+  ],
+  "037": [
+    {
+      "nombre": "Ceiba",
+      "fips": "15967"
+    },
+    {
+      "nombre": "Chupacallos",
+      "fips": "17644"
+    },
+    {
+      "nombre": "Daguao",
+      "fips": "23019"
+    },
+    {
+      "nombre": "Guayacán",
+      "fips": "32178"
+    },
+    {
+      "nombre": "Machos",
+      "fips": "48260"
+    },
+    {
+      "nombre": "Quebrada Seca",
+      "fips": "67825"
+    },
+    {
+      "nombre": "Río Abajo",
+      "fips": "69846"
+    },
+    {
+      "nombre": "Saco",
+      "fips": "74490"
+    }
+  ],
+  "039": [
+    {
+      "nombre": "Ciales",
+      "fips": "17730"
+    },
+    {
+      "nombre": "Cialitos",
+      "fips": "17816"
+    },
+    {
+      "nombre": "Cordillera",
+      "fips": "20568"
+    },
+    {
+      "nombre": "Frontón",
+      "fips": "29684"
+    },
+    {
+      "nombre": "Hato Viejo",
+      "fips": "34285"
+    },
+    {
+      "nombre": "Jaguas",
+      "fips": "37338"
+    },
+    {
+      "nombre": "Pesas",
+      "fips": "61375"
+    },
+    {
+      "nombre": "Pozas",
+      "fips": "64170"
+    },
+    {
+      "nombre": "Toro Negro",
+      "fips": "82961"
+    }
+  ],
+  "041": [
+    {
+      "nombre": "Arenas",
+      "fips": "03755"
+    },
+    {
+      "nombre": "Bayamón",
+      "fips": "06722"
+    },
+    {
+      "nombre": "Beatriz",
+      "fips": "07281"
+    },
+    {
+      "nombre": "Ceiba",
+      "fips": "16010"
+    },
+    {
+      "nombre": "Certenejas",
+      "fips": "17417"
+    },
+    {
+      "nombre": "Cidra",
+      "fips": "18117"
+    },
+    {
+      "nombre": "Honduras",
+      "fips": "34930"
+    },
+    {
+      "nombre": "Monte Llano",
+      "fips": "54495"
+    },
+    {
+      "nombre": "Rabanal",
+      "fips": "68341"
+    },
+    {
+      "nombre": "Rincón",
+      "fips": "69502"
+    },
+    {
+      "nombre": "Río Abajo",
+      "fips": "69889"
+    },
+    {
+      "nombre": "Salto",
+      "fips": "75006"
+    },
+    {
+      "nombre": "Sud",
+      "fips": "80725"
+    },
+    {
+      "nombre": "Toíta",
+      "fips": "82789"
+    }
+  ],
+  "043": [
+    {
+      "nombre": "Coamo",
+      "fips": "18762"
+    },
+    {
+      "nombre": "Coamo Arriba",
+      "fips": "18848"
+    },
+    {
+      "nombre": "Cuyón",
+      "fips": "22933"
+    },
+    {
+      "nombre": "Hayales",
+      "fips": "34371"
+    },
+    {
+      "nombre": "Los Llanos",
+      "fips": "47056"
+    },
+    {
+      "nombre": "Palmarejo",
+      "fips": "58021"
+    },
+    {
+      "nombre": "Pasto",
+      "fips": "60085"
+    },
+    {
+      "nombre": "Pedro García",
+      "fips": "60687"
+    },
+    {
+      "nombre": "Pulguillas",
+      "fips": "66062"
+    },
+    {
+      "nombre": "San Ildefonso",
+      "fips": "76253"
+    },
+    {
+      "nombre": "Santa Catalina",
+      "fips": "77801"
+    }
+  ],
+  "045": [
+    {
+      "nombre": "Cedrito",
+      "fips": "15666"
+    },
+    {
+      "nombre": "Cejas",
+      "fips": "16397"
+    },
+    {
+      "nombre": "Comerío",
+      "fips": "19708"
+    },
+    {
+      "nombre": "Doña Elena",
+      "fips": "23879"
+    },
+    {
+      "nombre": "Naranjo",
+      "fips": "56301"
+    },
+    {
+      "nombre": "Palomas",
+      "fips": "59010"
+    },
+    {
+      "nombre": "Piñas",
+      "fips": "62020"
+    },
+    {
+      "nombre": "Río Hondo",
+      "fips": "71265"
+    },
+    {
+      "nombre": "Vega Redonda",
+      "fips": "85412"
+    }
+  ],
+  "047": [
+    {
+      "nombre": "Abras",
+      "fips": "00143"
+    },
+    {
+      "nombre": "Cibuco",
+      "fips": "17945"
+    },
+    {
+      "nombre": "Corozal",
+      "fips": "20826"
+    },
+    {
+      "nombre": "Cuchillas",
+      "fips": "22288"
+    },
+    {
+      "nombre": "Dos Bocas",
+      "fips": "24094"
+    },
+    {
+      "nombre": "Magueyes",
+      "fips": "48905"
+    },
+    {
+      "nombre": "Maná",
+      "fips": "50066"
+    },
+    {
+      "nombre": "Negros",
+      "fips": "56516"
+    },
+    {
+      "nombre": "Padilla",
+      "fips": "57677"
+    },
+    {
+      "nombre": "Palmarejo",
+      "fips": "58107"
+    },
+    {
+      "nombre": "Palmarito",
+      "fips": "58322"
+    },
+    {
+      "nombre": "Palos Blancos",
+      "fips": "59096"
+    },
+    {
+      "nombre": "Pueblo",
+      "fips": "64557"
+    }
+  ],
+  "049": [
+    {
+      "nombre": "Culebra",
+      "fips": "22632"
+    },
+    {
+      "nombre": "Flamenco",
+      "fips": "28566"
+    },
+    {
+      "nombre": "Fraile",
+      "fips": "29426"
+    },
+    {
+      "nombre": "Playa Sardinas I",
+      "fips": "63396"
+    },
+    {
+      "nombre": "Playa Sardinas II",
+      "fips": "63439"
+    },
+    {
+      "nombre": "San Isidro",
+      "fips": "76382"
+    }
+  ],
+  "051": [
+    {
+      "nombre": "Dorado",
+      "fips": "24051"
+    },
+    {
+      "nombre": "Espinosa",
+      "fips": "27448"
+    },
+    {
+      "nombre": "Higuillar",
+      "fips": "34758"
+    },
+    {
+      "nombre": "Maguayo",
+      "fips": "48819"
+    },
+    {
+      "nombre": "Mameyal",
+      "fips": "49808"
+    },
+    {
+      "nombre": "Río Lajas",
+      "fips": "71480"
+    }
+  ],
+  "053": [
+    {
+      "nombre": "Cabezas",
+      "fips": "09732"
+    },
+    {
+      "nombre": "Demajagua",
+      "fips": "23406"
+    },
+    {
+      "nombre": "Fajardo",
+      "fips": "28007"
+    },
+    {
+      "nombre": "Florencio",
+      "fips": "28695"
+    },
+    {
+      "nombre": "Naranjo",
+      "fips": "56344"
+    },
+    {
+      "nombre": "Quebrada Fajardo",
+      "fips": "67223"
+    },
+    {
+      "nombre": "Quebrada Vueltas",
+      "fips": "67868"
+    },
+    {
+      "nombre": "Río Arriba",
+      "fips": "70233"
+    },
+    {
+      "nombre": "Sardinera",
+      "fips": "79779"
+    }
+  ],
+  "054": [
+    {
+      "nombre": "Florida Adentro",
+      "fips": "28996"
+    }
+  ],
+  "055": [
+    {
+      "nombre": "Arena",
+      "fips": "03454"
+    },
+    {
+      "nombre": "Carenero",
+      "fips": "14032"
+    },
+    {
+      "nombre": "Caño",
+      "fips": "12785"
+    },
+    {
+      "nombre": "Ciénaga",
+      "fips": "18246"
+    },
+    {
+      "nombre": "Ensenada",
+      "fips": "26760"
+    },
+    {
+      "nombre": "Guánica",
+      "fips": "31232"
+    },
+    {
+      "nombre": "Montalva",
+      "fips": "54022"
+    },
+    {
+      "nombre": "Susúa Baja",
+      "fips": "81112"
+    }
+  ],
+  "057": [
+    {
+      "nombre": "Algarrobo",
+      "fips": "01691"
+    },
+    {
+      "nombre": "Caimital",
+      "fips": "10549"
+    },
+    {
+      "nombre": "Carite",
+      "fips": "14075"
+    },
+    {
+      "nombre": "Carmen",
+      "fips": "14161"
+    },
+    {
+      "nombre": "Guamaní",
+      "fips": "30845"
+    },
+    {
+      "nombre": "Guayama",
+      "fips": "32264"
+    },
+    {
+      "nombre": "Jobos",
+      "fips": "38714"
+    },
+    {
+      "nombre": "Machete",
+      "fips": "48217"
+    },
+    {
+      "nombre": "Palmas",
+      "fips": "58494"
+    },
+    {
+      "nombre": "Pozo Hondo",
+      "fips": "64256"
+    }
+  ],
+  "059": [
+    {
+      "nombre": "Barrero",
+      "fips": "05905"
+    },
+    {
+      "nombre": "Boca",
+      "fips": "07840"
+    },
+    {
+      "nombre": "Cedro",
+      "fips": "15795"
+    },
+    {
+      "nombre": "Consejo",
+      "fips": "20052"
+    },
+    {
+      "nombre": "Guayanilla",
+      "fips": "32350"
+    },
+    {
+      "nombre": "Indios",
+      "fips": "36220"
+    },
+    {
+      "nombre": "Jagua Pasto",
+      "fips": "37252"
+    },
+    {
+      "nombre": "Jaguas",
+      "fips": "37381"
+    },
+    {
+      "nombre": "Llano",
+      "fips": "45852"
+    },
+    {
+      "nombre": "Macaná",
+      "fips": "48088"
+    },
+    {
+      "nombre": "Magas",
+      "fips": "48518"
+    },
+    {
+      "nombre": "Pasto",
+      "fips": "60128"
+    },
+    {
+      "nombre": "Playa",
+      "fips": "62708"
+    },
+    {
+      "nombre": "Quebrada Honda",
+      "fips": "67438"
+    },
+    {
+      "nombre": "Quebradas",
+      "fips": "67696"
+    },
+    {
+      "nombre": "Rufina",
+      "fips": "72813"
+    },
+    {
+      "nombre": "Sierra Baja",
+      "fips": "80209"
+    }
+  ],
+  "061": [
+    {
+      "nombre": "Camarones",
+      "fips": "11280"
+    },
+    {
+      "nombre": "Frailes",
+      "fips": "29469"
+    },
+    {
+      "nombre": "Guaraguao",
+      "fips": "31490"
+    },
+    {
+      "nombre": "Guaynabo",
+      "fips": "32565"
+    },
+    {
+      "nombre": "Hato Nuevo",
+      "fips": "33726"
+    },
+    {
+      "nombre": "Mamey",
+      "fips": "49593"
+    },
+    {
+      "nombre": "Pueblo Viejo",
+      "fips": "65073"
+    },
+    {
+      "nombre": "Río",
+      "fips": "69717"
+    },
+    {
+      "nombre": "Santa Rosa",
+      "fips": "79048"
+    },
+    {
+      "nombre": "Sonadora",
+      "fips": "80510"
+    }
+  ],
+  "063": [
+    {
+      "nombre": "Celada",
+      "fips": "16483"
+    },
+    {
+      "nombre": "Gurabo",
+      "fips": "32866"
+    },
+    {
+      "nombre": "Hato Nuevo",
+      "fips": "33769"
+    },
+    {
+      "nombre": "Jaguar",
+      "fips": "37295"
+    },
+    {
+      "nombre": "Jaguas",
+      "fips": "37424"
+    },
+    {
+      "nombre": "Mamey",
+      "fips": "49636"
+    },
+    {
+      "nombre": "Masa",
+      "fips": "51786"
+    },
+    {
+      "nombre": "Navarro",
+      "fips": "56473"
+    },
+    {
+      "nombre": "Quebrada Infierno",
+      "fips": "67524"
+    },
+    {
+      "nombre": "Rincón",
+      "fips": "69545"
+    }
+  ],
+  "065": [
+    {
+      "nombre": "Aibonito",
+      "fips": "01347"
+    },
+    {
+      "nombre": "Bayaney",
+      "fips": "07066"
+    },
+    {
+      "nombre": "Buena Vista",
+      "fips": "09216"
+    },
+    {
+      "nombre": "Campo Alegre",
+      "fips": "11624"
+    },
+    {
+      "nombre": "Capáez",
+      "fips": "13688"
+    },
+    {
+      "nombre": "Carrizales",
+      "fips": "14677"
+    },
+    {
+      "nombre": "Corcovado",
+      "fips": "20525"
+    },
+    {
+      "nombre": "Hatillo",
+      "fips": "33339"
+    },
+    {
+      "nombre": "Hatillo",
+      "fips": "33382"
+    },
+    {
+      "nombre": "Naranjito",
+      "fips": "56086"
+    }
+  ],
+  "067": [
+    {
+      "nombre": "Benavente",
+      "fips": "07453"
+    },
+    {
+      "nombre": "Guanajibo",
+      "fips": "31060"
+    },
+    {
+      "nombre": "Hormigueros",
+      "fips": "35075"
+    },
+    {
+      "nombre": "Hormigueros",
+      "fips": "35102"
+    },
+    {
+      "nombre": "Jaguitas",
+      "fips": "37768"
+    },
+    {
+      "nombre": "Lavadero",
+      "fips": "45035"
+    }
+  ],
+  "069": [
+    {
+      "nombre": "Antón Ruíz",
+      "fips": "03239"
+    },
+    {
+      "nombre": "Buena Vista",
+      "fips": "09302"
+    },
+    {
+      "nombre": "Candelero Abajo",
+      "fips": "12570"
+    },
+    {
+      "nombre": "Candelero Arriba",
+      "fips": "12656"
+    },
+    {
+      "nombre": "Cataño",
+      "fips": "15279"
+    },
+    {
+      "nombre": "Collores",
+      "fips": "19106"
+    },
+    {
+      "nombre": "Humacao",
+      "fips": "35575"
+    },
+    {
+      "nombre": "Mabú",
+      "fips": "48002"
+    },
+    {
+      "nombre": "Mambiche",
+      "fips": "49507"
+    },
+    {
+      "nombre": "Mariana",
+      "fips": "50883"
+    },
+    {
+      "nombre": "Punta Santiago",
+      "fips": "66535"
+    },
+    {
+      "nombre": "Río Abajo",
+      "fips": "69975"
+    },
+    {
+      "nombre": "Tejas",
+      "fips": "81800"
+    }
+  ],
+  "071": [
+    {
+      "nombre": "Arenales Altos",
+      "fips": "03669"
+    },
+    {
+      "nombre": "Arenales Bajos",
+      "fips": "03712"
+    },
+    {
+      "nombre": "Bajura",
+      "fips": "04805"
+    },
+    {
+      "nombre": "Bejucos",
+      "fips": "07324"
+    },
+    {
+      "nombre": "Coto",
+      "fips": "21084"
+    },
+    {
+      "nombre": "Galateo Alto",
+      "fips": "29899"
+    },
+    {
+      "nombre": "Galateo Bajo",
+      "fips": "29985"
+    },
+    {
+      "nombre": "Guayabos",
+      "fips": "32092"
+    },
+    {
+      "nombre": "Guerrero",
+      "fips": "32737"
+    },
+    {
+      "nombre": "Isabela",
+      "fips": "36521"
+    },
+    {
+      "nombre": "Jobos",
+      "fips": "38757"
+    },
+    {
+      "nombre": "Llanadas",
+      "fips": "45809"
+    },
+    {
+      "nombre": "Mora",
+      "fips": "54925"
+    },
+    {
+      "nombre": "Planas",
+      "fips": "62407"
+    }
+  ],
+  "073": [
+    {
+      "nombre": "Coabey",
+      "fips": "18676"
+    },
+    {
+      "nombre": "Collores",
+      "fips": "19192"
+    },
+    {
+      "nombre": "Jauca",
+      "fips": "38198"
+    },
+    {
+      "nombre": "Jayuya",
+      "fips": "38413"
+    },
+    {
+      "nombre": "Jayuya Abajo",
+      "fips": "38542"
+    },
+    {
+      "nombre": "Mameyes Arriba",
+      "fips": "49937"
+    },
+    {
+      "nombre": "Pica",
+      "fips": "61461"
+    },
+    {
+      "nombre": "Río Grande",
+      "fips": "71007"
+    },
+    {
+      "nombre": "Saliente",
+      "fips": "74748"
+    },
+    {
+      "nombre": "Veguitas",
+      "fips": "85670"
+    },
+    {
+      "nombre": "Zamas",
+      "fips": "88465"
+    }
+  ],
+  "075": [
+    {
+      "nombre": "Amuelas",
+      "fips": "02551"
+    },
+    {
+      "nombre": "Callabo",
+      "fips": "10979"
+    },
+    {
+      "nombre": "Capitanejo",
+      "fips": "13903"
+    },
+    {
+      "nombre": "Cintrona",
+      "fips": "18504"
+    },
+    {
+      "nombre": "Collores",
+      "fips": "19278"
+    },
+    {
+      "nombre": "Emajagual",
+      "fips": "26588"
+    },
+    {
+      "nombre": "Guayabal",
+      "fips": "31920"
+    },
+    {
+      "nombre": "Jacaguas",
+      "fips": "36994"
+    },
+    {
+      "nombre": "Juana Díaz",
+      "fips": "39015"
+    },
+    {
+      "nombre": "Lomas",
+      "fips": "46712"
+    },
+    {
+      "nombre": "Río Cañas Abajo",
+      "fips": "70749"
+    },
+    {
+      "nombre": "Río Cañas Arriba",
+      "fips": "70835"
+    },
+    {
+      "nombre": "Sabana Llana",
+      "fips": "73845"
+    },
+    {
+      "nombre": "Tijeras",
+      "fips": "82316"
+    }
+  ],
+  "077": [
+    {
+      "nombre": "Caimito",
+      "fips": "10678"
+    },
+    {
+      "nombre": "Ceiba Norte",
+      "fips": "16311"
+    },
+    {
+      "nombre": "Ceiba Sur",
+      "fips": "16354"
+    },
+    {
+      "nombre": "Gurabo Abajo",
+      "fips": "32952"
+    },
+    {
+      "nombre": "Gurabo Arriba",
+      "fips": "32995"
+    },
+    {
+      "nombre": "Juncos",
+      "fips": "39617"
+    },
+    {
+      "nombre": "Lirios",
+      "fips": "45723"
+    },
+    {
+      "nombre": "Mamey",
+      "fips": "49679"
+    },
+    {
+      "nombre": "Valenciano Abajo",
+      "fips": "84810"
+    },
+    {
+      "nombre": "Valenciano Arriba",
+      "fips": "84853"
+    }
+  ],
+  "079": [
+    {
+      "nombre": "Candelaria",
+      "fips": "12398"
+    },
+    {
+      "nombre": "Costa",
+      "fips": "21041"
+    },
+    {
+      "nombre": "Lajas",
+      "fips": "40993"
+    },
+    {
+      "nombre": "Lajas",
+      "fips": "41036"
+    },
+    {
+      "nombre": "Lajas Arriba",
+      "fips": "41165"
+    },
+    {
+      "nombre": "Llanos",
+      "fips": "45981"
+    },
+    {
+      "nombre": "Palmarejo",
+      "fips": "58193"
+    },
+    {
+      "nombre": "Parguera",
+      "fips": "59526"
+    },
+    {
+      "nombre": "París",
+      "fips": "59569"
+    },
+    {
+      "nombre": "Plata",
+      "fips": "62579"
+    },
+    {
+      "nombre": "Sabana Yeguas",
+      "fips": "74318"
+    },
+    {
+      "nombre": "Santa Rosa",
+      "fips": "79091"
+    }
+  ],
+  "081": [
+    {
+      "nombre": "Bartolo",
+      "fips": "06378"
+    },
+    {
+      "nombre": "Buenos Aires",
+      "fips": "09517"
+    },
+    {
+      "nombre": "Callejones",
+      "fips": "11022"
+    },
+    {
+      "nombre": "Espino",
+      "fips": "27319"
+    },
+    {
+      "nombre": "La Torre",
+      "fips": "44777"
+    },
+    {
+      "nombre": "Lares",
+      "fips": "42541"
+    },
+    {
+      "nombre": "Lares",
+      "fips": "42584"
+    },
+    {
+      "nombre": "Mirasol",
+      "fips": "53721"
+    },
+    {
+      "nombre": "Pezuela",
+      "fips": "61418"
+    },
+    {
+      "nombre": "Piletas",
+      "fips": "61848"
+    },
+    {
+      "nombre": "Pueblo",
+      "fips": "64600"
+    },
+    {
+      "nombre": "Río Prieto",
+      "fips": "71609"
+    }
+  ],
+  "083": [
+    {
+      "nombre": "Alto Sano",
+      "fips": "02379"
+    },
+    {
+      "nombre": "Anones",
+      "fips": "03110"
+    },
+    {
+      "nombre": "Bucarabones",
+      "fips": "08829"
+    },
+    {
+      "nombre": "Buena Vista",
+      "fips": "09345"
+    },
+    {
+      "nombre": "Cerrote",
+      "fips": "17386"
+    },
+    {
+      "nombre": "Chamorro",
+      "fips": "17472"
+    },
+    {
+      "nombre": "Espino",
+      "fips": "27362"
+    },
+    {
+      "nombre": "Furnias",
+      "fips": "29770"
+    },
+    {
+      "nombre": "Las Marías",
+      "fips": "43831"
+    },
+    {
+      "nombre": "Maravilla Este",
+      "fips": "50539"
+    },
+    {
+      "nombre": "Maravilla Norte",
+      "fips": "50582"
+    },
+    {
+      "nombre": "Maravilla Sur",
+      "fips": "50600"
+    },
+    {
+      "nombre": "Naranjales",
+      "fips": "55957"
+    },
+    {
+      "nombre": "Palma Escrita",
+      "fips": "57892"
+    },
+    {
+      "nombre": "Purísima Concepción",
+      "fips": "66621"
+    },
+    {
+      "nombre": "Río Cañas",
+      "fips": "70663"
+    }
+  ],
+  "085": [
+    {
+      "nombre": "Boquerón",
+      "fips": "08141"
+    },
+    {
+      "nombre": "Ceiba",
+      "fips": "16096"
+    },
+    {
+      "nombre": "Collores",
+      "fips": "19321"
+    },
+    {
+      "nombre": "El Río",
+      "fips": "26158"
+    },
+    {
+      "nombre": "Las Piedras",
+      "fips": "44433"
+    },
+    {
+      "nombre": "Montones",
+      "fips": "54710"
+    },
+    {
+      "nombre": "Quebrada Arenas",
+      "fips": "66793"
+    },
+    {
+      "nombre": "Tejas",
+      "fips": "81843"
+    }
+  ],
+  "087": [
+    {
+      "nombre": "Canóvanas",
+      "fips": "13043"
+    },
+    {
+      "nombre": "Loíza",
+      "fips": "46411"
+    },
+    {
+      "nombre": "Medianía Alta",
+      "fips": "52732"
+    },
+    {
+      "nombre": "Medianía Baja",
+      "fips": "52775"
+    },
+    {
+      "nombre": "Torrecilla Alta",
+      "fips": "83090"
+    },
+    {
+      "nombre": "Torrecilla Baja",
+      "fips": "83133"
+    }
+  ],
+  "089": [
+    {
+      "nombre": "Juan Martín",
+      "fips": "39316"
+    },
+    {
+      "nombre": "Luquillo",
+      "fips": "47830"
+    },
+    {
+      "nombre": "Mameyes I",
+      "fips": "49980"
+    },
+    {
+      "nombre": "Mata de Plátano",
+      "fips": "51872"
+    },
+    {
+      "nombre": "Pitahaya",
+      "fips": "62364"
+    },
+    {
+      "nombre": "Sabana",
+      "fips": "73071"
+    }
+  ],
+  "091": [
+    {
+      "nombre": "Bajura Adentro",
+      "fips": "04873"
+    },
+    {
+      "nombre": "Bajura Afuera",
+      "fips": "04916"
+    },
+    {
+      "nombre": "Coto Norte",
+      "fips": "21342"
+    },
+    {
+      "nombre": "Coto Sur",
+      "fips": "21471"
+    },
+    {
+      "nombre": "Manatí",
+      "fips": "50195"
+    },
+    {
+      "nombre": "Río Arriba Poniente",
+      "fips": "70319"
+    },
+    {
+      "nombre": "Río Arriba Saliente",
+      "fips": "70362"
+    },
+    {
+      "nombre": "Tierras Nuevas Poniente",
+      "fips": "82230"
+    },
+    {
+      "nombre": "Tierras Nuevas Saliente",
+      "fips": "82273"
+    }
+  ],
+  "093": [
+    {
+      "nombre": "Bucarabones",
+      "fips": "08872"
+    },
+    {
+      "nombre": "Indiera Alta",
+      "fips": "36091"
+    },
+    {
+      "nombre": "Indiera Baja",
+      "fips": "36134"
+    },
+    {
+      "nombre": "Indiera Fría",
+      "fips": "36156"
+    },
+    {
+      "nombre": "Maricao",
+      "fips": "51313"
+    },
+    {
+      "nombre": "Maricao Afuera",
+      "fips": "51399"
+    },
+    {
+      "nombre": "Montoso",
+      "fips": "54753"
+    }
+  ],
+  "095": [
+    {
+      "nombre": "Calzada",
+      "fips": "11108"
+    },
+    {
+      "nombre": "Emajagua",
+      "fips": "26545"
+    },
+    {
+      "nombre": "Lizas",
+      "fips": "45766"
+    },
+    {
+      "nombre": "Matuyas Alto",
+      "fips": "52173"
+    },
+    {
+      "nombre": "Matuyas Bajo",
+      "fips": "52216"
+    },
+    {
+      "nombre": "Maunabo",
+      "fips": "52302"
+    },
+    {
+      "nombre": "Palo Seco",
+      "fips": "59182"
+    },
+    {
+      "nombre": "Quebrada Arenas",
+      "fips": "66836"
+    },
+    {
+      "nombre": "Talante",
+      "fips": "81370"
+    },
+    {
+      "nombre": "Tumbao",
+      "fips": "83798"
+    }
+  ],
+  "097": [
+    {
+      "nombre": "Algarrobos",
+      "fips": "01820"
+    },
+    {
+      "nombre": "Bateyes",
+      "fips": "06464"
+    },
+    {
+      "nombre": "Guanajibo",
+      "fips": "31103"
+    },
+    {
+      "nombre": "Isla de Mona e Islote Monito",
+      "fips": "36650"
+    },
+    {
+      "nombre": "Juan Alonso",
+      "fips": "39101"
+    },
+    {
+      "nombre": "Leguísamo",
+      "fips": "45250"
+    },
+    {
+      "nombre": "Limón",
+      "fips": "45551"
+    },
+    {
+      "nombre": "Malezas",
+      "fips": "49378"
+    },
+    {
+      "nombre": "Mayagüez",
+      "fips": "52474"
+    },
+    {
+      "nombre": "Mayagüez Arriba",
+      "fips": "52560"
+    },
+    {
+      "nombre": "Miradero",
+      "fips": "53420"
+    },
+    {
+      "nombre": "Montoso",
+      "fips": "54796"
+    },
+    {
+      "nombre": "Naranjales",
+      "fips": "56000"
+    },
+    {
+      "nombre": "Quebrada Grande",
+      "fips": "67352"
+    },
+    {
+      "nombre": "Quemado",
+      "fips": "68126"
+    },
+    {
+      "nombre": "Rosario",
+      "fips": "72340"
+    },
+    {
+      "nombre": "Río Cañas Abajo",
+      "fips": "70792"
+    },
+    {
+      "nombre": "Río Cañas Arriba",
+      "fips": "70878"
+    },
+    {
+      "nombre": "Río Hondo",
+      "fips": "71308"
+    },
+    {
+      "nombre": "Sabanetas",
+      "fips": "74361"
+    },
+    {
+      "nombre": "Sábalos",
+      "fips": "72899"
+    }
+  ],
+  "099": [
+    {
+      "nombre": "Aceitunas",
+      "fips": "00229"
+    },
+    {
+      "nombre": "Capá",
+      "fips": "13602"
+    },
+    {
+      "nombre": "Centro",
+      "fips": "16698"
+    },
+    {
+      "nombre": "Cerro Gordo",
+      "fips": "17257"
+    },
+    {
+      "nombre": "Cruz",
+      "fips": "21858"
+    },
+    {
+      "nombre": "Cuchillas",
+      "fips": "22331"
+    },
+    {
+      "nombre": "Marías",
+      "fips": "51184"
+    },
+    {
+      "nombre": "Naranjo",
+      "fips": "56387"
+    },
+    {
+      "nombre": "Plata",
+      "fips": "62622"
+    },
+    {
+      "nombre": "Pueblo",
+      "fips": "64643"
+    },
+    {
+      "nombre": "Rocha",
+      "fips": "71953"
+    },
+    {
+      "nombre": "Voladoras",
+      "fips": "87648"
+    }
+  ],
+  "101": [
+    {
+      "nombre": "Barahona",
+      "fips": "05260"
+    },
+    {
+      "nombre": "Cuchillas",
+      "fips": "22374"
+    },
+    {
+      "nombre": "Fránquez",
+      "fips": "29598"
+    },
+    {
+      "nombre": "Monte Llano",
+      "fips": "54538"
+    },
+    {
+      "nombre": "Morovis",
+      "fips": "55140"
+    },
+    {
+      "nombre": "Morovis Norte",
+      "fips": "55183"
+    },
+    {
+      "nombre": "Morovis Sud",
+      "fips": "55226"
+    },
+    {
+      "nombre": "Pasto",
+      "fips": "60214"
+    },
+    {
+      "nombre": "Perchas",
+      "fips": "61160"
+    },
+    {
+      "nombre": "Río Grande",
+      "fips": "71050"
+    },
+    {
+      "nombre": "San Lorenzo",
+      "fips": "76984"
+    },
+    {
+      "nombre": "Torrecillas",
+      "fips": "83219"
+    },
+    {
+      "nombre": "Unibón",
+      "fips": "83993"
+    },
+    {
+      "nombre": "Vaga",
+      "fips": "84638"
+    }
+  ],
+  "103": [
+    {
+      "nombre": "Daguao",
+      "fips": "23105"
+    },
+    {
+      "nombre": "Duque",
+      "fips": "24438"
+    },
+    {
+      "nombre": "Húcares",
+      "fips": "35489"
+    },
+    {
+      "nombre": "Maizales",
+      "fips": "49163"
+    },
+    {
+      "nombre": "Mariana",
+      "fips": "50969"
+    },
+    {
+      "nombre": "Naguabo",
+      "fips": "55871"
+    },
+    {
+      "nombre": "Peña Pobre",
+      "fips": "60988"
+    },
+    {
+      "nombre": "Río",
+      "fips": "69803"
+    },
+    {
+      "nombre": "Río Blanco",
+      "fips": "70491"
+    },
+    {
+      "nombre": "Santiago y Lima",
+      "fips": "79521"
+    }
+  ],
+  "105": [
+    {
+      "nombre": "Achiote",
+      "fips": "00315"
+    },
+    {
+      "nombre": "Anones",
+      "fips": "03153"
+    },
+    {
+      "nombre": "Cedro Abajo",
+      "fips": "15838"
+    },
+    {
+      "nombre": "Cedro Arriba",
+      "fips": "15881"
+    },
+    {
+      "nombre": "Guadiana",
+      "fips": "30673"
+    },
+    {
+      "nombre": "Lomas",
+      "fips": "46755"
+    },
+    {
+      "nombre": "Naranjito",
+      "fips": "56172"
+    },
+    {
+      "nombre": "Nuevo",
+      "fips": "56817"
+    }
+  ],
+  "107": [
+    {
+      "nombre": "Ala de la Piedra",
+      "fips": "01433"
+    },
+    {
+      "nombre": "Barros",
+      "fips": "06335"
+    },
+    {
+      "nombre": "Bauta Abajo",
+      "fips": "06507"
+    },
+    {
+      "nombre": "Bauta Arriba",
+      "fips": "06550"
+    },
+    {
+      "nombre": "Bermejales",
+      "fips": "07625"
+    },
+    {
+      "nombre": "Botijas",
+      "fips": "08614"
+    },
+    {
+      "nombre": "Cacaos",
+      "fips": "10205"
+    },
+    {
+      "nombre": "Collores",
+      "fips": "19364"
+    },
+    {
+      "nombre": "Damián Abajo",
+      "fips": "23234"
+    },
+    {
+      "nombre": "Damián Arriba",
+      "fips": "23277"
+    },
+    {
+      "nombre": "Gato",
+      "fips": "30501"
+    },
+    {
+      "nombre": "Mata de Cañas",
+      "fips": "51829"
+    },
+    {
+      "nombre": "Orocovis",
+      "fips": "57333"
+    },
+    {
+      "nombre": "Orocovis",
+      "fips": "57376"
+    },
+    {
+      "nombre": "Pellejas",
+      "fips": "60816"
+    },
+    {
+      "nombre": "Sabana",
+      "fips": "73114"
+    },
+    {
+      "nombre": "Saltos",
+      "fips": "75178"
+    }
+  ],
+  "109": [
+    {
+      "nombre": "Apeadero",
+      "fips": "03282"
+    },
+    {
+      "nombre": "Bajo",
+      "fips": "04744"
+    },
+    {
+      "nombre": "Cacao Alto",
+      "fips": "10119"
+    },
+    {
+      "nombre": "Cacao Bajo",
+      "fips": "10162"
+    },
+    {
+      "nombre": "Egozcue",
+      "fips": "24481"
+    },
+    {
+      "nombre": "Guardarraya",
+      "fips": "31705"
+    },
+    {
+      "nombre": "Jacaboa",
+      "fips": "36908"
+    },
+    {
+      "nombre": "Jagual",
+      "fips": "37123"
+    },
+    {
+      "nombre": "Mamey",
+      "fips": "49722"
+    },
+    {
+      "nombre": "Marín",
+      "fips": "51442"
+    },
+    {
+      "nombre": "Mulas",
+      "fips": "55484"
+    },
+    {
+      "nombre": "Muñoz Rivera",
+      "fips": "55699"
+    },
+    {
+      "nombre": "Patillas",
+      "fips": "60515"
+    },
+    {
+      "nombre": "Pollos",
+      "fips": "63740"
+    },
+    {
+      "nombre": "Quebrada Arriba",
+      "fips": "67094"
+    },
+    {
+      "nombre": "Ríos",
+      "fips": "71695"
+    }
+  ],
+  "111": [
+    {
+      "nombre": "Barreal",
+      "fips": "05862"
+    },
+    {
+      "nombre": "Coto",
+      "fips": "21127"
+    },
+    {
+      "nombre": "Cuebas",
+      "fips": "22460"
+    },
+    {
+      "nombre": "Encarnación",
+      "fips": "26631"
+    },
+    {
+      "nombre": "Jaguas",
+      "fips": "37510"
+    },
+    {
+      "nombre": "Macaná",
+      "fips": "48174"
+    },
+    {
+      "nombre": "Peñuelas",
+      "fips": "61117"
+    },
+    {
+      "nombre": "Quebrada Ceiba",
+      "fips": "67137"
+    },
+    {
+      "nombre": "Rucio",
+      "fips": "72770"
+    },
+    {
+      "nombre": "Santo Domingo",
+      "fips": "79607"
+    },
+    {
+      "nombre": "Tallaboa Alta",
+      "fips": "81499"
+    },
+    {
+      "nombre": "Tallaboa Poniente",
+      "fips": "81585"
+    },
+    {
+      "nombre": "Tallaboa Saliente",
+      "fips": "81628"
+    }
+  ],
+  "113": [
+    {
+      "nombre": "Anón",
+      "fips": "03067"
+    },
+    {
+      "nombre": "Bucaná",
+      "fips": "08786"
+    },
+    {
+      "nombre": "Canas",
+      "fips": "12312"
+    },
+    {
+      "nombre": "Canas Urbano",
+      "fips": "12355"
+    },
+    {
+      "nombre": "Capitanejo",
+      "fips": "13946"
+    },
+    {
+      "nombre": "Cerrillos",
+      "fips": "17042"
+    },
+    {
+      "nombre": "Coto Laurel",
+      "fips": "21256"
+    },
+    {
+      "nombre": "Cuarto",
+      "fips": "21901"
+    },
+    {
+      "nombre": "Guaraguao",
+      "fips": "31576"
+    },
+    {
+      "nombre": "Machuelo Abajo",
+      "fips": "48389"
+    },
+    {
+      "nombre": "Machuelo Arriba",
+      "fips": "48432"
+    },
+    {
+      "nombre": "Magueyes",
+      "fips": "49034"
+    },
+    {
+      "nombre": "Magueyes Urbano",
+      "fips": "49077"
+    },
+    {
+      "nombre": "Maragüez",
+      "fips": "50453"
+    },
+    {
+      "nombre": "Marueño",
+      "fips": "51743"
+    },
+    {
+      "nombre": "Monte Llano",
+      "fips": "54581"
+    },
+    {
+      "nombre": "Playa",
+      "fips": "62751"
+    },
+    {
+      "nombre": "Portugués",
+      "fips": "64041"
+    },
+    {
+      "nombre": "Portugués Urbano",
+      "fips": "64084"
+    },
+    {
+      "nombre": "Primero",
+      "fips": "64299"
+    },
+    {
+      "nombre": "Quebrada Limón",
+      "fips": "67610"
+    },
+    {
+      "nombre": "Quinto",
+      "fips": "68298"
+    },
+    {
+      "nombre": "Real",
+      "fips": "68900"
+    },
+    {
+      "nombre": "Sabanetas",
+      "fips": "74447"
+    },
+    {
+      "nombre": "San Antón",
+      "fips": "75565"
+    },
+    {
+      "nombre": "San Patricio",
+      "fips": "77242"
+    },
+    {
+      "nombre": "Segundo",
+      "fips": "79908"
+    },
+    {
+      "nombre": "Sexto",
+      "fips": "80080"
+    },
+    {
+      "nombre": "Tercero",
+      "fips": "81929"
+    },
+    {
+      "nombre": "Tibes",
+      "fips": "82058"
+    },
+    {
+      "nombre": "Vayas",
+      "fips": "85068"
+    }
+  ],
+  "115": [
+    {
+      "nombre": "Cacao",
+      "fips": "10076"
+    },
+    {
+      "nombre": "Charcas",
+      "fips": "17515"
+    },
+    {
+      "nombre": "Cocos",
+      "fips": "18934"
+    },
+    {
+      "nombre": "Guajataca",
+      "fips": "30716"
+    },
+    {
+      "nombre": "Quebradillas",
+      "fips": "68083"
+    },
+    {
+      "nombre": "San Antonio",
+      "fips": "75823"
+    },
+    {
+      "nombre": "San José",
+      "fips": "76597"
+    },
+    {
+      "nombre": "Terranova",
+      "fips": "81972"
+    }
+  ],
+  "117": [
+    {
+      "nombre": "Atalaya",
+      "fips": "04443"
+    },
+    {
+      "nombre": "Barrero",
+      "fips": "05948"
+    },
+    {
+      "nombre": "Calvache",
+      "fips": "11065"
+    },
+    {
+      "nombre": "Cruces",
+      "fips": "21815"
+    },
+    {
+      "nombre": "Ensenada",
+      "fips": "26846"
+    },
+    {
+      "nombre": "Jagüey",
+      "fips": "37639"
+    },
+    {
+      "nombre": "Pueblo",
+      "fips": "64686"
+    },
+    {
+      "nombre": "Puntas",
+      "fips": "66449"
+    },
+    {
+      "nombre": "Rincón",
+      "fips": "69631"
+    },
+    {
+      "nombre": "Río Grande",
+      "fips": "71093"
+    }
+  ],
+  "119": [
+    {
+      "nombre": "Ciénaga Alta",
+      "fips": "18289"
+    },
+    {
+      "nombre": "Ciénaga Baja",
+      "fips": "18332"
+    },
+    {
+      "nombre": "Guzmán Abajo",
+      "fips": "33081"
+    },
+    {
+      "nombre": "Guzmán Arriba",
+      "fips": "33124"
+    },
+    {
+      "nombre": "Herreras",
+      "fips": "34543"
+    },
+    {
+      "nombre": "Jiménez",
+      "fips": "38585"
+    },
+    {
+      "nombre": "Mameyes II",
+      "fips": "50023"
+    },
+    {
+      "nombre": "Río Grande",
+      "fips": "71179"
+    },
+    {
+      "nombre": "Zarzal",
+      "fips": "88637"
+    }
+  ],
+  "121": [
+    {
+      "nombre": "Machuchal",
+      "fips": "48346"
+    },
+    {
+      "nombre": "Rayo",
+      "fips": "68857"
+    },
+    {
+      "nombre": "Rincón",
+      "fips": "69674"
+    },
+    {
+      "nombre": "Sabana Grande",
+      "fips": "73587"
+    },
+    {
+      "nombre": "Santana",
+      "fips": "78747"
+    },
+    {
+      "nombre": "Susúa",
+      "fips": "81026"
+    },
+    {
+      "nombre": "Tabonuco",
+      "fips": "81327"
+    },
+    {
+      "nombre": "Torre",
+      "fips": "83004"
+    }
+  ],
+  "123": [
+    {
+      "nombre": "Aguirre",
+      "fips": "01175"
+    },
+    {
+      "nombre": "Lapa",
+      "fips": "41681"
+    },
+    {
+      "nombre": "Palmas",
+      "fips": "58537"
+    },
+    {
+      "nombre": "Quebrada Yeguas",
+      "fips": "67911"
+    },
+    {
+      "nombre": "Río Jueyes",
+      "fips": "71394"
+    },
+    {
+      "nombre": "Salinas",
+      "fips": "74920"
+    }
+  ],
+  "125": [
+    {
+      "nombre": "Ancones",
+      "fips": "02852"
+    },
+    {
+      "nombre": "Caín Alto",
+      "fips": "10807"
+    },
+    {
+      "nombre": "Caín Bajo",
+      "fips": "10850"
+    },
+    {
+      "nombre": "Cotuí",
+      "fips": "21514"
+    },
+    {
+      "nombre": "Duey Alto",
+      "fips": "24309"
+    },
+    {
+      "nombre": "Duey Bajo",
+      "fips": "24352"
+    },
+    {
+      "nombre": "Guamá",
+      "fips": "30802"
+    },
+    {
+      "nombre": "Hoconuco Alto",
+      "fips": "34801"
+    },
+    {
+      "nombre": "Hoconuco Bajo",
+      "fips": "34844"
+    },
+    {
+      "nombre": "Maresúa",
+      "fips": "50625"
+    },
+    {
+      "nombre": "Minillas",
+      "fips": "53248"
+    },
+    {
+      "nombre": "Retiro",
+      "fips": "69244"
+    },
+    {
+      "nombre": "Rosario Alto",
+      "fips": "72426"
+    },
+    {
+      "nombre": "Rosario Bajo",
+      "fips": "72469"
+    },
+    {
+      "nombre": "Rosario Peñón",
+      "fips": "72512"
+    },
+    {
+      "nombre": "Sabana Eneas",
+      "fips": "73415"
+    },
+    {
+      "nombre": "Sabana Grande Abajo",
+      "fips": "73673"
+    },
+    {
+      "nombre": "San Germán",
+      "fips": "76210"
+    },
+    {
+      "nombre": "Tuna",
+      "fips": "83821"
+    }
+  ],
+  "127": [
+    {
+      "nombre": "Caimito",
+      "fips": "10721"
+    },
+    {
+      "nombre": "Cupey",
+      "fips": "22847"
+    },
+    {
+      "nombre": "El Cinco",
+      "fips": "24868"
+    },
+    {
+      "nombre": "Gobernador Piñero",
+      "fips": "30587"
+    },
+    {
+      "nombre": "Hato Rey Central",
+      "fips": "33984"
+    },
+    {
+      "nombre": "Hato Rey Norte",
+      "fips": "34027"
+    },
+    {
+      "nombre": "Hato Rey Sur",
+      "fips": "34070"
+    },
+    {
+      "nombre": "Monacillo",
+      "fips": "53893"
+    },
+    {
+      "nombre": "Monacillo Urbano",
+      "fips": "53936"
+    },
+    {
+      "nombre": "Oriente",
+      "fips": "57247"
+    },
+    {
+      "nombre": "Pueblo",
+      "fips": "64729"
+    },
+    {
+      "nombre": "Quebrada Arenas",
+      "fips": "66879"
+    },
+    {
+      "nombre": "Sabana Llana Norte",
+      "fips": "74017"
+    },
+    {
+      "nombre": "Sabana Llana Sur",
+      "fips": "74060"
+    },
+    {
+      "nombre": "San Juan Antiguo",
+      "fips": "76812"
+    },
+    {
+      "nombre": "Santurce",
+      "fips": "79693"
+    },
+    {
+      "nombre": "Tortugo",
+      "fips": "83348"
+    },
+    {
+      "nombre": "Universidad",
+      "fips": "84079"
+    }
+  ],
+  "129": [
+    {
+      "nombre": "Cayaguas",
+      "fips": "15451"
+    },
+    {
+      "nombre": "Cerro Gordo",
+      "fips": "17300"
+    },
+    {
+      "nombre": "Espino",
+      "fips": "27405"
+    },
+    {
+      "nombre": "Florida",
+      "fips": "28910"
+    },
+    {
+      "nombre": "Hato",
+      "fips": "33425"
+    },
+    {
+      "nombre": "Jagual",
+      "fips": "37209"
+    },
+    {
+      "nombre": "Quebrada",
+      "fips": "66750"
+    },
+    {
+      "nombre": "Quebrada Arenas",
+      "fips": "66922"
+    },
+    {
+      "nombre": "Quebrada Honda",
+      "fips": "67481"
+    },
+    {
+      "nombre": "Quemados",
+      "fips": "68212"
+    },
+    {
+      "nombre": "San Lorenzo",
+      "fips": "77070"
+    }
+  ],
+  "131": [
+    {
+      "nombre": "Aibonito",
+      "fips": "01390"
+    },
+    {
+      "nombre": "Alto Sano",
+      "fips": "02422"
+    },
+    {
+      "nombre": "Bahomamey",
+      "fips": "04486"
+    },
+    {
+      "nombre": "Calabazas",
+      "fips": "10893"
+    },
+    {
+      "nombre": "Cibao",
+      "fips": "17902"
+    },
+    {
+      "nombre": "Cidral",
+      "fips": "18203"
+    },
+    {
+      "nombre": "Culebrinas",
+      "fips": "22804"
+    },
+    {
+      "nombre": "Eneas",
+      "fips": "26674"
+    },
+    {
+      "nombre": "Guacio",
+      "fips": "30630"
+    },
+    {
+      "nombre": "Guajataca",
+      "fips": "30759"
+    },
+    {
+      "nombre": "Guatemala",
+      "fips": "31791"
+    },
+    {
+      "nombre": "Hato Arriba",
+      "fips": "33640"
+    },
+    {
+      "nombre": "Hoya Mala",
+      "fips": "35274"
+    },
+    {
+      "nombre": "Juncal",
+      "fips": "39488"
+    },
+    {
+      "nombre": "Magos",
+      "fips": "48776"
+    },
+    {
+      "nombre": "Mirabales",
+      "fips": "53334"
+    },
+    {
+      "nombre": "Perchas 1",
+      "fips": "61246"
+    },
+    {
+      "nombre": "Perchas 2",
+      "fips": "61289"
+    },
+    {
+      "nombre": "Piedras Blancas",
+      "fips": "61805"
+    },
+    {
+      "nombre": "Pozas",
+      "fips": "64213"
+    },
+    {
+      "nombre": "Robles",
+      "fips": "71910"
+    },
+    {
+      "nombre": "Salto",
+      "fips": "75049"
+    },
+    {
+      "nombre": "San Sebastián",
+      "fips": "77543"
+    },
+    {
+      "nombre": "Sonador",
+      "fips": "80424"
+    }
+  ],
+  "133": [
+    {
+      "nombre": "Boca Velázquez",
+      "fips": "07926"
+    },
+    {
+      "nombre": "Descalabrado",
+      "fips": "23492"
+    },
+    {
+      "nombre": "Felicia 1",
+      "fips": "28179"
+    },
+    {
+      "nombre": "Felicia 2",
+      "fips": "28222"
+    },
+    {
+      "nombre": "Jauca 1",
+      "fips": "38284"
+    },
+    {
+      "nombre": "Jauca 2",
+      "fips": "38327"
+    },
+    {
+      "nombre": "Playa",
+      "fips": "62794"
+    },
+    {
+      "nombre": "Santa Isabel",
+      "fips": "78188"
+    }
+  ],
+  "135": [
+    {
+      "nombre": "Contorno",
+      "fips": "20267"
+    },
+    {
+      "nombre": "Galateo",
+      "fips": "29856"
+    },
+    {
+      "nombre": "Mucarabones",
+      "fips": "55398"
+    },
+    {
+      "nombre": "Ortíz",
+      "fips": "57548"
+    },
+    {
+      "nombre": "Piñas",
+      "fips": "62063"
+    },
+    {
+      "nombre": "Quebrada Arenas",
+      "fips": "66965"
+    },
+    {
+      "nombre": "Quebrada Cruz",
+      "fips": "67180"
+    },
+    {
+      "nombre": "Río Lajas",
+      "fips": "71523"
+    },
+    {
+      "nombre": "Toa Alta",
+      "fips": "82531"
+    }
+  ],
+  "137": [
+    {
+      "nombre": "Candelaria",
+      "fips": "12484"
+    },
+    {
+      "nombre": "Media Luna",
+      "fips": "52646"
+    },
+    {
+      "nombre": "Palo Seco",
+      "fips": "59268"
+    },
+    {
+      "nombre": "Sabana Seca",
+      "fips": "74232"
+    },
+    {
+      "nombre": "Toa Baja",
+      "fips": "82660"
+    }
+  ],
+  "139": [
+    {
+      "nombre": "Carraízo",
+      "fips": "14376"
+    },
+    {
+      "nombre": "Cuevas",
+      "fips": "22546"
+    },
+    {
+      "nombre": "Dos Bocas",
+      "fips": "24137"
+    },
+    {
+      "nombre": "La Gloria",
+      "fips": "40606"
+    },
+    {
+      "nombre": "Quebrada Grande",
+      "fips": "67395"
+    },
+    {
+      "nombre": "Quebrada Negrito",
+      "fips": "67653"
+    },
+    {
+      "nombre": "St. Just",
+      "fips": "74670"
+    },
+    {
+      "nombre": "Trujillo Alto",
+      "fips": "83649"
+    }
+  ],
+  "141": [
+    {
+      "nombre": "Angeles",
+      "fips": "02981"
+    },
+    {
+      "nombre": "Arenas",
+      "fips": "03884"
+    },
+    {
+      "nombre": "Caguana",
+      "fips": "10291"
+    },
+    {
+      "nombre": "Caníaco",
+      "fips": "12742"
+    },
+    {
+      "nombre": "Caonillas Abajo",
+      "fips": "13387"
+    },
+    {
+      "nombre": "Caonillas Arriba",
+      "fips": "13473"
+    },
+    {
+      "nombre": "Consejo",
+      "fips": "20095"
+    },
+    {
+      "nombre": "Don Alonso",
+      "fips": "23922"
+    },
+    {
+      "nombre": "Guaonico",
+      "fips": "31404"
+    },
+    {
+      "nombre": "Las Palmas",
+      "fips": "44304"
+    },
+    {
+      "nombre": "Limón",
+      "fips": "45594"
+    },
+    {
+      "nombre": "Mameyes Abajo",
+      "fips": "49894"
+    },
+    {
+      "nombre": "Paso Palma",
+      "fips": "59827"
+    },
+    {
+      "nombre": "Roncador",
+      "fips": "72082"
+    },
+    {
+      "nombre": "Río Abajo",
+      "fips": "70018"
+    },
+    {
+      "nombre": "Sabana Grande",
+      "fips": "73630"
+    },
+    {
+      "nombre": "Salto Abajo",
+      "fips": "75092"
+    },
+    {
+      "nombre": "Salto Arriba",
+      "fips": "75135"
+    },
+    {
+      "nombre": "Santa Isabel",
+      "fips": "78231"
+    },
+    {
+      "nombre": "Santa Rosa",
+      "fips": "79134"
+    },
+    {
+      "nombre": "Tetuán",
+      "fips": "82015"
+    },
+    {
+      "nombre": "Utuado",
+      "fips": "84552"
+    },
+    {
+      "nombre": "Viví Abajo",
+      "fips": "87562"
+    },
+    {
+      "nombre": "Viví Arriba",
+      "fips": "87605"
+    }
+  ],
+  "143": [
+    {
+      "nombre": "Bajura",
+      "fips": "04830"
+    },
+    {
+      "nombre": "Candelaria",
+      "fips": "12527"
+    },
+    {
+      "nombre": "Cienegueta",
+      "fips": "18418"
+    },
+    {
+      "nombre": "Espinosa",
+      "fips": "27534"
+    },
+    {
+      "nombre": "Maricao",
+      "fips": "51356"
+    },
+    {
+      "nombre": "Mavilla",
+      "fips": "52388"
+    },
+    {
+      "nombre": "Sabana",
+      "fips": "73157"
+    },
+    {
+      "nombre": "Vega Alta",
+      "fips": "85240"
+    }
+  ],
+  "145": [
+    {
+      "nombre": "Algarrobo",
+      "fips": "01734"
+    },
+    {
+      "nombre": "Almirante Norte",
+      "fips": "02121"
+    },
+    {
+      "nombre": "Almirante Sur",
+      "fips": "02164"
+    },
+    {
+      "nombre": "Cabo Caribe",
+      "fips": "09775"
+    },
+    {
+      "nombre": "Ceiba",
+      "fips": "16182"
+    },
+    {
+      "nombre": "Cibuco",
+      "fips": "17988"
+    },
+    {
+      "nombre": "Puerto Nuevo",
+      "fips": "65503"
+    },
+    {
+      "nombre": "Pugnado Adentro",
+      "fips": "65933"
+    },
+    {
+      "nombre": "Pugnado Afuera",
+      "fips": "66019"
+    },
+    {
+      "nombre": "Quebrada Arenas",
+      "fips": "67008"
+    },
+    {
+      "nombre": "Río Abajo",
+      "fips": "70104"
+    },
+    {
+      "nombre": "Río Arriba",
+      "fips": "70276"
+    },
+    {
+      "nombre": "Vega Baja",
+      "fips": "85369"
+    },
+    {
+      "nombre": "Yeguada",
+      "fips": "88379"
+    }
+  ],
+  "147": [
+    {
+      "nombre": "Florida",
+      "fips": "28953"
+    },
+    {
+      "nombre": "Isabel II",
+      "fips": "36564"
+    },
+    {
+      "nombre": "Llave",
+      "fips": "46196"
+    },
+    {
+      "nombre": "Mosquito",
+      "fips": "55312"
+    },
+    {
+      "nombre": "Puerto Diablo",
+      "fips": "65331"
+    },
+    {
+      "nombre": "Puerto Ferro",
+      "fips": "65374"
+    },
+    {
+      "nombre": "Puerto Real",
+      "fips": "65675"
+    },
+    {
+      "nombre": "Punta Arenas",
+      "fips": "66148"
+    }
+  ],
+  "149": [
+    {
+      "nombre": "Caonillas Abajo",
+      "fips": "13430"
+    },
+    {
+      "nombre": "Caonillas Arriba",
+      "fips": "13516"
+    },
+    {
+      "nombre": "Hato Puerco Abajo",
+      "fips": "33855"
+    },
+    {
+      "nombre": "Hato Puerco Arriba",
+      "fips": "33898"
+    },
+    {
+      "nombre": "Vacas",
+      "fips": "84595"
+    },
+    {
+      "nombre": "Villalba",
+      "fips": "86874"
+    },
+    {
+      "nombre": "Villalba Abajo",
+      "fips": "86917"
+    },
+    {
+      "nombre": "Villalba Arriba",
+      "fips": "86960"
+    }
+  ],
+  "151": [
+    {
+      "nombre": "Aguacate",
+      "fips": "00573"
+    },
+    {
+      "nombre": "Calabazas",
+      "fips": "10936"
+    },
+    {
+      "nombre": "Camino Nuevo",
+      "fips": "11452"
+    },
+    {
+      "nombre": "Guayabota",
+      "fips": "32135"
+    },
+    {
+      "nombre": "Juan Martín",
+      "fips": "39359"
+    },
+    {
+      "nombre": "Jácanas",
+      "fips": "37080"
+    },
+    {
+      "nombre": "Limones",
+      "fips": "45680"
+    },
+    {
+      "nombre": "Playa",
+      "fips": "62837"
+    },
+    {
+      "nombre": "Tejas",
+      "fips": "81886"
+    },
+    {
+      "nombre": "Yabucoa",
+      "fips": "87906"
+    }
+  ],
+  "153": [
+    {
+      "nombre": "Aguas Blancas",
+      "fips": "00831"
+    },
+    {
+      "nombre": "Algarrobo",
+      "fips": "01777"
+    },
+    {
+      "nombre": "Almácigo Alto",
+      "fips": "01949"
+    },
+    {
+      "nombre": "Almácigo Bajo",
+      "fips": "02035"
+    },
+    {
+      "nombre": "Barina",
+      "fips": "05432"
+    },
+    {
+      "nombre": "Caimito",
+      "fips": "10764"
+    },
+    {
+      "nombre": "Collores",
+      "fips": "19407"
+    },
+    {
+      "nombre": "Diego Hernández",
+      "fips": "23621"
+    },
+    {
+      "nombre": "Duey",
+      "fips": "24266"
+    },
+    {
+      "nombre": "Frailes",
+      "fips": "29512"
+    },
+    {
+      "nombre": "Jácana",
+      "fips": "37037"
+    },
+    {
+      "nombre": "Naranjo",
+      "fips": "56430"
+    },
+    {
+      "nombre": "Quebradas",
+      "fips": "67739"
+    },
+    {
+      "nombre": "Ranchera",
+      "fips": "68814"
+    },
+    {
+      "nombre": "Rubias",
+      "fips": "72684"
+    },
+    {
+      "nombre": "Río Prieto",
+      "fips": "71652"
+    },
+    {
+      "nombre": "Sierra Alta",
+      "fips": "80166"
+    },
+    {
+      "nombre": "Susúa Alta",
+      "fips": "81069"
+    },
+    {
+      "nombre": "Susúa Baja",
+      "fips": "81155"
+    },
+    {
+      "nombre": "Vegas",
+      "fips": "85541"
+    },
+    {
+      "nombre": "Yauco",
+      "fips": "88078"
+    }
+  ]
+}
