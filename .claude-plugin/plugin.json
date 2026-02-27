@@ -1,6 +1,6 @@
 {
   "name": "fpr-censo-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Census Bureau data for Puerto Rico. Query demographics, economy, housing, education, and infrastructure for 78 municipios and their barrios. Includes data quality assessment (MOE/CV) and contextual analysis.",
   "author": {
     "name": "Foundation for Puerto Rico",
