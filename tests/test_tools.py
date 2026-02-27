@@ -30,11 +30,12 @@ def setup_mcp():
 
 
 def test_tools_registered(setup_mcp):
-    """Verifica que todos los 11 tools se registren."""
+    """Verifica que todos los 12 tools se registren."""
     mcp, *_ = setup_mcp
 
     # FastMCP stores tools internally; verify by listing them
     tool_names = [
+        "censo_estado",
         "censo_listar_datasets",
         "censo_buscar_variables",
         "censo_listar_geografias",

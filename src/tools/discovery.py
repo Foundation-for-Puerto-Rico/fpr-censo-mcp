@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import os
+
 from src.census_client import CensusClient
 from src.geography import GeographyResolver
 from src.profiles import ProfileManager
@@ -9,6 +11,66 @@ from src.profiles import ProfileManager
 
 def register_discovery_tools(mcp, client: CensusClient, geo: GeographyResolver, profiles: ProfileManager):
     """Registra los tools de descubrimiento en el servidor MCP."""
+
+    @mcp.tool(
+        name="censo_estado",
+        annotations={"readOnlyHint": True, "destructiveHint": False},
+    )
+    async def censo_estado() -> str:
+        """
+        Muestra el estado de configuración del servidor Census MCP.
+
+        Verifica si el API key está configurado y devuelve instrucciones
+        de configuración si no lo está. Llama este tool al inicio de
+        cualquier sesión para verificar que todo esté listo.
+        """
+        has_key = bool(os.environ.get("CENSUS_API_KEY", ""))
+        lines = ["# Estado del Census MCP Server\n"]
+
+        if has_key:
+            lines.append("- **API Key**: ✅ Configurada")
+            lines.append("- **Estado**: Listo para consultas")
+            lines.append("- **Rate limit**: Amplio (con API key)")
+            lines.append("\nTodos los tools están disponibles. Puedes hacer consultas sin restricciones.")
+        else:
+            lines.append("- **API Key**: ⚠️ No configurada")
+            lines.append("- **Estado**: Funcional con limitaciones")
+            lines.append("- **Rate limit**: Restringido (sin API key)")
+            lines.append("")
+            lines.append("## Cómo obtener tu API Key (gratis)")
+            lines.append("")
+            lines.append("El Census Bureau ofrece API keys gratuitas. Sin key el servidor funciona, "
+                         "pero con rate limiting que puede causar errores en consultas frecuentes.")
+            lines.append("")
+            lines.append("### Pasos:")
+            lines.append("1. Ve a: **https://api.census.gov/data/key_signup.html**")
+            lines.append("2. Llena el formulario con tu nombre y email organizacional de FPR")
+            lines.append("3. Recibirás la key por email en unos minutos")
+            lines.append("4. Configúrala como variable de entorno:")
+            lines.append("   ```")
+            lines.append("   export CENSUS_API_KEY=tu_key_aquí")
+            lines.append("   ```")
+            lines.append("5. Reinicia el servidor MCP")
+            lines.append("")
+            lines.append("### Configuración en Claude Desktop / .mcp.json")
+            lines.append("Si usas Claude Desktop, puedes agregar la key en la configuración:")
+            lines.append("```json")
+            lines.append('{')
+            lines.append('  "mcpServers": {')
+            lines.append('    "fpr-censo": {')
+            lines.append('      "url": "http://TU_SERVIDOR:8001/mcp",')
+            lines.append('      "env": {')
+            lines.append('        "CENSUS_API_KEY": "tu_key_aquí"')
+            lines.append('      }')
+            lines.append('    }')
+            lines.append('  }')
+            lines.append('}')
+            lines.append("```")
+            lines.append("")
+            lines.append("⚠️ **Mientras tanto**, puedes usar el servidor sin key. "
+                         "Las consultas funcionarán pero pueden ser más lentas o fallar si haces muchas seguidas.")
+
+        return "\n".join(lines)
 
     @mcp.tool(
         name="censo_listar_datasets",

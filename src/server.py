@@ -45,7 +45,12 @@ mcp = FastMCP(
         "salud, e infraestructura para los 78 municipios y sus barrios. "
         "Todos los estimados del ACS incluyen Margin of Error (MOE) y "
         "evaluación de confiabilidad (CV). Los tools aceptan nombres de "
-        "municipios y barrios en español."
+        "municipios y barrios en español.\n\n"
+        "IMPORTANTE: Al inicio de cada sesión, llama censo_estado para "
+        "verificar la configuración. Si el API key no está configurado, "
+        "muestra las instrucciones al usuario y guíalo para obtener una "
+        "key gratuita en https://api.census.gov/data/key_signup.html. "
+        "El servidor funciona sin key pero con rate limiting."
     ),
 )
 
