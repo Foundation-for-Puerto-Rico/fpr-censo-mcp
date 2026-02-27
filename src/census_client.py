@@ -75,6 +75,14 @@ class CensusClient:
                 response = await client.get(url, params=params)
 
                 if response.status_code == 200:
+                    # Census API redirige a HTML cuando el API key es inválido
+                    content_type = response.headers.get("content-type", "")
+                    if "text/html" in content_type:
+                        raise CensusAPIError(
+                            "API key inválida o expirada. El Census API funciona sin key (con rate limiting).",
+                            status_code=200,
+                            suggestion="Elimina CENSUS_API_KEY o obtén una nueva en https://api.census.gov/data/key_signup.html",
+                        )
                     return response
                 elif response.status_code == 204:
                     raise CensusAPIError(
