@@ -107,8 +107,13 @@ class GeographyResolver:
         """
         Resuelve un nombre de geografía a FIPS y cláusulas for/in.
 
+        Soporta formatos:
+          - "Vega Baja" → municipio
+          - "Almirante Norte" → barrio (si no existe municipio con ese nombre)
+          - "Almirante Norte, Vega Baja" → barrio dentro del municipio
+
         Args:
-            name: Nombre como "Vega Baja", "Almirante Sur", o FIPS directo
+            name: Nombre como "Vega Baja", "Almirante Sur, Vega Baja", o FIPS directo
             level: Forzar nivel ("county", "county subdivision"). Si None, auto-detecta.
 
         Returns:
@@ -127,7 +132,25 @@ class GeographyResolver:
                 in_clause="",
             )
 
-        # Intentar como municipio primero (o si level fuerza county)
+        # Detectar formato "barrio, municipio" (coma como separador)
+        has_comma = "," in normalized
+        if has_comma:
+            # Intentar barrio primero cuando hay coma — indica "barrio, municipio"
+            if level is None or level in ("county subdivision", "barrio"):
+                barrio_result = self._find_barrio(normalized)
+                if barrio_result:
+                    barrio, muni_fips = barrio_result
+                    muni = self.get_municipio_by_fips(muni_fips)
+                    nombre_display = f"{barrio['nombre']}, {muni.nombre}" if muni else barrio["nombre"]
+                    return GeographyResult(
+                        nombre=nombre_display,
+                        fips=barrio["fips"],
+                        nivel="county subdivision",
+                        for_clause=f"county subdivision:{barrio['fips']}",
+                        in_clause=f"state:72 county:{muni_fips}",
+                    )
+
+        # Intentar como municipio (o si level fuerza county)
         if level is None or level in ("county", "municipio"):
             muni = self._find_municipio(normalized)
             if muni:
@@ -139,7 +162,7 @@ class GeographyResolver:
                     in_clause="state:72",
                 )
 
-        # Intentar como barrio
+        # Intentar como barrio (sin coma — nombre suelto)
         if level is None or level in ("county subdivision", "barrio"):
             barrio_result = self._find_barrio(normalized)
             if barrio_result:
@@ -168,15 +191,41 @@ class GeographyResolver:
         return None
 
     def _find_barrio(self, normalized: str) -> tuple[dict[str, str], str] | None:
-        """Busca barrio por nombre normalizado."""
-        # Exact match
-        if normalized in self._barrio_lookup:
-            matches = self._barrio_lookup[normalized]
-            return matches[0]  # Primer match
+        """
+        Busca barrio por nombre normalizado.
+
+        Soporta formatos:
+          - "almirante norte" → primer barrio con ese nombre
+          - "almirante norte, vega baja" → barrio dentro del municipio especificado
+        """
+        # Parsear formato "barrio, municipio"
+        barrio_name = normalized
+        muni_filter_fips: str | None = None
+
+        if "," in normalized:
+            parts = [p.strip() for p in normalized.split(",", 1)]
+            barrio_name = parts[0]
+            muni_name = parts[1]
+            muni = self._find_municipio(_normalize(muni_name))
+            if muni:
+                muni_filter_fips = muni["fips"]
+
+        # Exact match (filtrado por municipio si se especificó)
+        if barrio_name in self._barrio_lookup:
+            matches = self._barrio_lookup[barrio_name]
+            if muni_filter_fips:
+                for barrio, mfips in matches:
+                    if mfips == muni_filter_fips:
+                        return barrio, mfips
+            return matches[0]
 
         # Partial match
         for key, matches in self._barrio_lookup.items():
-            if normalized in key or key in normalized:
+            if barrio_name in key or key in barrio_name:
+                if muni_filter_fips:
+                    for barrio, mfips in matches:
+                        if mfips == muni_filter_fips:
+                            return barrio, mfips
                 return matches[0]
 
         return None
