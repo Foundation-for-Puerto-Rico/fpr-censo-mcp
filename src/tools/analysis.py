@@ -26,7 +26,7 @@ def register_analysis_tools(mcp, client: CensusClient, geo: GeographyResolver, p
         variables: list[str] | None = None,
         perfil: str | None = None,
         dataset: str = "acs/acs5",
-        anio: int = 2022,
+        anio: int = 2023,
     ) -> str:
         """
         Compara indicadores entre dos o más geografías lado a lado.
@@ -39,7 +39,7 @@ def register_analysis_tools(mcp, client: CensusClient, geo: GeographyResolver, p
             variables: Códigos de variables a comparar. Si None, usa perfil o resumen.
             perfil: Perfil temático a usar si no se dan variables específicas.
             dataset: Path del dataset (default: acs/acs5).
-            anio: Año de los datos (default: 2022).
+            anio: Año de los datos (default: 2023).
         """
         if len(geografias) < 2:
             return "Necesitas al menos 2 geografías para comparar."
@@ -178,7 +178,7 @@ def register_analysis_tools(mcp, client: CensusClient, geo: GeographyResolver, p
         variable: str,
         geografia: str,
         dataset: str = "acs/acs5",
-        anio: int = 2022,
+        anio: int = 2023,
     ) -> str:
         """
         Contextualiza un indicador comparándolo con PR y EE.UU.
@@ -190,7 +190,7 @@ def register_analysis_tools(mcp, client: CensusClient, geo: GeographyResolver, p
             variable: Código de variable (ej: "B19013_001E").
             geografia: Nombre de la geografía local (ej: "Vega Baja").
             dataset: Path del dataset (default: acs/acs5).
-            anio: Año de los datos (default: 2022).
+            anio: Año de los datos (default: 2023).
         """
         vdef = profiles.find_variable(variable)
         var_name = vdef.nombre_es if vdef else variable

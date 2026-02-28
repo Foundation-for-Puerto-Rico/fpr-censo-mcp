@@ -115,7 +115,7 @@ def register_discovery_tools(mcp, client: CensusClient, geo: GeographyResolver, 
     async def censo_buscar_variables(
         keyword: str,
         dataset: str = "acs/acs5",
-        anio: int = 2022,
+        anio: int = 2023,
     ) -> str:
         """
         Busca variables del Census Bureau por keyword en español o inglés.
@@ -126,7 +126,7 @@ def register_discovery_tools(mcp, client: CensusClient, geo: GeographyResolver, 
         Args:
             keyword: Término de búsqueda (ej: "ingreso", "pobreza", "housing").
             dataset: Dataset donde buscar (default: acs/acs5).
-            anio: Año del dataset (default: 2022).
+            anio: Año del dataset (default: 2023).
         """
         lines = [f"# Búsqueda de variables: \"{keyword}\"\n"]
 
@@ -164,14 +164,14 @@ def register_discovery_tools(mcp, client: CensusClient, geo: GeographyResolver, 
     )
     async def censo_listar_geografias(
         dataset: str = "acs/acs5",
-        anio: int = 2022,
+        anio: int = 2023,
     ) -> str:
         """
         Lista los niveles geográficos disponibles para un dataset.
 
         Args:
             dataset: Path del dataset (default: acs/acs5).
-            anio: Año del dataset (default: 2022).
+            anio: Año del dataset (default: 2023).
         """
         geos = await client.get_geographies(dataset, anio)
 

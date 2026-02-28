@@ -21,7 +21,7 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
         variables: list[str],
         geografia: str = "todos los municipios",
         dataset: str = "acs/acs5",
-        anio: int = 2022,
+        anio: int = 2023,
         nivel: str | None = None,
     ) -> str:
         """
@@ -35,7 +35,7 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
             variables: Lista de códigos de variables (ej: ["B01003_001E", "B19013_001E"]).
             geografia: Nombre de geografía (ej: "Vega Baja", "todos los municipios", "PR").
             dataset: Path del dataset (default: acs/acs5).
-            anio: Año de los datos (default: 2022).
+            anio: Año de los datos (default: 2023).
             nivel: Nivel geográfico a forzar (ej: "county", "county subdivision").
         """
         # Resolver geografía
@@ -83,7 +83,7 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
         geografia: str,
         perfil: str | None = None,
         dataset: str = "acs/acs5",
-        anio: int = 2022,
+        anio: int = 2023,
     ) -> str:
         """
         Genera un perfil temático para una geografía dada.
@@ -96,7 +96,7 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
             geografia: Nombre de la geografía (ej: "Vega Baja", "Puerto Rico").
             perfil: Perfil temático (demografico, economico, vivienda, educacion, salud_social, infraestructura). Si None, resumen ejecutivo.
             dataset: Path del dataset (default: acs/acs5).
-            anio: Año de los datos (default: 2022).
+            anio: Año de los datos (default: 2023).
         """
         # Resolver geografía
         resolved = geo.resolve(geografia)
@@ -175,7 +175,7 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
         variable: str,
         geografia: str,
         anio_inicio: int = 2010,
-        anio_fin: int = 2022,
+        anio_fin: int = 2023,
         dataset: str = "acs/acs5",
     ) -> str:
         """
@@ -185,7 +185,7 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
             variable: Código de variable (ej: "B01003_001E" para población).
             geografia: Nombre de geografía (ej: "Vega Baja", "Puerto Rico").
             anio_inicio: Año inicial del rango (default: 2010).
-            anio_fin: Año final del rango (default: 2022).
+            anio_fin: Año final del rango (default: 2023).
             dataset: Path del dataset (default: acs/acs5).
         """
         resolved = geo.resolve(geografia)

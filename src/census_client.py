@@ -226,14 +226,14 @@ class CensusClient:
             {
                 "nombre": "American Community Survey 5-Year",
                 "path": "acs/acs5",
-                "años": list(range(2009, 2023)),
+                "años": list(range(2009, 2024)),
                 "descripcion": "Datos detallados para todas las áreas geográficas de PR. Fuente principal.",
                 "granularidad_pr": "Block Group",
             },
             {
                 "nombre": "American Community Survey 1-Year",
                 "path": "acs/acs1",
-                "años": list(range(2005, 2023)),
+                "años": list(range(2005, 2024)),
                 "descripcion": "Datos más recientes pero solo para municipios con 65,000+ habitantes.",
                 "granularidad_pr": "Municipio (limitado)",
             },
