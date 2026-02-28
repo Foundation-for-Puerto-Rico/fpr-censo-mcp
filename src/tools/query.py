@@ -21,7 +21,7 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
         variables: list[str],
         geografia: str = "todos los municipios",
         dataset: str = "acs/acs5",
-        año: int = 2022,
+        anio: int = 2022,
         nivel: str | None = None,
     ) -> str:
         """
@@ -35,7 +35,7 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
             variables: Lista de códigos de variables (ej: ["B01003_001E", "B19013_001E"]).
             geografia: Nombre de geografía (ej: "Vega Baja", "todos los municipios", "PR").
             dataset: Path del dataset (default: acs/acs5).
-            año: Año de los datos (default: 2022).
+            anio: Año de los datos (default: 2022).
             nivel: Nivel geográfico a forzar (ej: "county", "county subdivision").
         """
         # Resolver geografía
@@ -61,7 +61,7 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
 
         try:
             rows = await client.query(
-                year=año,
+                year=anio,
                 dataset=dataset,
                 variables=variables,
                 for_clause=for_clause,
@@ -73,7 +73,7 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
         if not rows:
             return "La consulta no devolvió resultados. Verifica los parámetros."
 
-        return _format_query_results(rows, variables, profiles, dataset, año, geografia)
+        return _format_query_results(rows, variables, profiles, dataset, anio, geografia)
 
     @mcp.tool(
         name="censo_perfil",
@@ -83,7 +83,7 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
         geografia: str,
         perfil: str | None = None,
         dataset: str = "acs/acs5",
-        año: int = 2022,
+        anio: int = 2022,
     ) -> str:
         """
         Genera un perfil temático para una geografía dada.
@@ -96,7 +96,7 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
             geografia: Nombre de la geografía (ej: "Vega Baja", "Puerto Rico").
             perfil: Perfil temático (demografico, economico, vivienda, educacion, salud_social, infraestructura). Si None, resumen ejecutivo.
             dataset: Path del dataset (default: acs/acs5).
-            año: Año de los datos (default: 2022).
+            anio: Año de los datos (default: 2022).
         """
         # Resolver geografía
         resolved = geo.resolve(geografia)
@@ -120,7 +120,7 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
 
         try:
             rows = await client.query(
-                year=año,
+                year=anio,
                 dataset=dataset,
                 variables=var_codes,
                 for_clause=resolved.for_clause,
@@ -136,7 +136,7 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
         row = rows[0]
         geo_name = row.get("NAME", resolved.nombre)
 
-        lines = [f"# {title}: {geo_name}", f"*Fuente: {dataset}, {año}*\n"]
+        lines = [f"# {title}: {geo_name}", f"*Fuente: {dataset}, {anio}*\n"]
 
         if perfil:
             var_defs_to_show = profiles.get_profile(perfil)
@@ -174,8 +174,8 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
     async def censo_serie_temporal(
         variable: str,
         geografia: str,
-        año_inicio: int = 2010,
-        año_fin: int = 2022,
+        anio_inicio: int = 2010,
+        anio_fin: int = 2022,
         dataset: str = "acs/acs5",
     ) -> str:
         """
@@ -184,8 +184,8 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
         Args:
             variable: Código de variable (ej: "B01003_001E" para población).
             geografia: Nombre de geografía (ej: "Vega Baja", "Puerto Rico").
-            año_inicio: Año inicial del rango (default: 2010).
-            año_fin: Año final del rango (default: 2022).
+            anio_inicio: Año inicial del rango (default: 2010).
+            anio_fin: Año final del rango (default: 2022).
             dataset: Path del dataset (default: acs/acs5).
         """
         resolved = geo.resolve(geografia)
@@ -198,14 +198,14 @@ def register_query_tools(mcp, client: CensusClient, geo: GeographyResolver, prof
         var_fmt = vdef.formato if vdef else "conteo"
 
         lines = [f"# Serie temporal: {var_name}", f"**Geografía**: {resolved.nombre}"]
-        lines.append(f"**Fuente**: {dataset}, {año_inicio}-{año_fin}\n")
+        lines.append(f"**Fuente**: {dataset}, {anio_inicio}-{anio_fin}\n")
         lines.append("| Año | Valor | MOE | Calidad |")
         lines.append("|-----|-------|-----|---------|")
 
         moe_code = variable[:-1] + "M" if variable.endswith("E") else None
         prev_val = None
 
-        for year in range(año_inicio, año_fin + 1):
+        for year in range(anio_inicio, anio_fin + 1):
             try:
                 rows = await client.query(
                     year=year,
@@ -247,11 +247,11 @@ def _format_query_results(
     variables: list[str],
     profiles: ProfileManager,
     dataset: str,
-    año: int,
+    anio: int,
     geografia: str,
 ) -> str:
     """Formatea resultados de query en markdown."""
-    lines = [f"# Consulta: {dataset} ({año})", f"**Geografía**: {geografia}\n"]
+    lines = [f"# Consulta: {dataset} ({anio})", f"**Geografía**: {geografia}\n"]
 
     # Filtrar variables MOE (_M) — se muestran junto a su estimado, no como columna aparte
     estimate_vars = [v for v in variables if not (v.endswith("M") and "_" in v and v[:-1] + "E" in variables)]

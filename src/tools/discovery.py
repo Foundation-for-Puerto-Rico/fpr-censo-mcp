@@ -76,7 +76,7 @@ def register_discovery_tools(mcp, client: CensusClient, geo: GeographyResolver, 
         name="censo_listar_datasets",
         annotations={"readOnlyHint": True, "destructiveHint": False},
     )
-    async def censo_listar_datasets(año: int | None = None) -> str:
+    async def censo_listar_datasets(anio: int | None = None) -> str:
         """
         Lista los datasets del Census Bureau disponibles para Puerto Rico.
 
@@ -85,12 +85,12 @@ def register_discovery_tools(mcp, client: CensusClient, geo: GeographyResolver, 
         datos para PR (state:72).
 
         Args:
-            año: Filtrar datasets que tengan datos para este año específico.
+            anio: Filtrar datasets que tengan datos para este año específico.
         """
-        datasets = await client.get_available_datasets(year=año)
+        datasets = await client.get_available_datasets(year=anio)
 
         if not datasets:
-            return "No se encontraron datasets disponibles" + (f" para el año {año}" if año else "") + "."
+            return "No se encontraron datasets disponibles" + (f" para el año {anio}" if anio else "") + "."
 
         lines = ["# Datasets del Census Bureau disponibles para Puerto Rico\n"]
         for ds in datasets:
@@ -115,7 +115,7 @@ def register_discovery_tools(mcp, client: CensusClient, geo: GeographyResolver, 
     async def censo_buscar_variables(
         keyword: str,
         dataset: str = "acs/acs5",
-        año: int = 2022,
+        anio: int = 2022,
     ) -> str:
         """
         Busca variables del Census Bureau por keyword en español o inglés.
@@ -126,7 +126,7 @@ def register_discovery_tools(mcp, client: CensusClient, geo: GeographyResolver, 
         Args:
             keyword: Término de búsqueda (ej: "ingreso", "pobreza", "housing").
             dataset: Dataset donde buscar (default: acs/acs5).
-            año: Año del dataset (default: 2022).
+            anio: Año del dataset (default: 2022).
         """
         lines = [f"# Búsqueda de variables: \"{keyword}\"\n"]
 
@@ -142,9 +142,9 @@ def register_discovery_tools(mcp, client: CensusClient, geo: GeographyResolver, 
 
         # Si pocas curadas, buscar en API
         if len(curated) < 3:
-            api_results = await client.search_variables(dataset, año, keyword)
+            api_results = await client.search_variables(dataset, anio, keyword)
             if api_results:
-                lines.append(f"## Variables del Census API ({dataset}, {año})\n")
+                lines.append(f"## Variables del Census API ({dataset}, {anio})\n")
                 lines.append("| Código | Descripción | Concepto |")
                 lines.append("|--------|-------------|----------|")
                 for v in api_results[:20]:
@@ -164,18 +164,18 @@ def register_discovery_tools(mcp, client: CensusClient, geo: GeographyResolver, 
     )
     async def censo_listar_geografias(
         dataset: str = "acs/acs5",
-        año: int = 2022,
+        anio: int = 2022,
     ) -> str:
         """
         Lista los niveles geográficos disponibles para un dataset.
 
         Args:
             dataset: Path del dataset (default: acs/acs5).
-            año: Año del dataset (default: 2022).
+            anio: Año del dataset (default: 2022).
         """
-        geos = await client.get_geographies(dataset, año)
+        geos = await client.get_geographies(dataset, anio)
 
-        lines = [f"# Niveles geográficos: {dataset} ({año})\n"]
+        lines = [f"# Niveles geográficos: {dataset} ({anio})\n"]
         lines.append("| Nivel (Census) | Nivel (PR) | Requiere |")
         lines.append("|----------------|------------|----------|")
         for g in geos:
