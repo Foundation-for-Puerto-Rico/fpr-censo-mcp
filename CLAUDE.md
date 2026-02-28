@@ -148,10 +148,17 @@ Clasificación:
 - Docstrings en español
 - Logging a stderr (nunca stdout)
 - Manejo de errores con mensajes claros y sugerencias de próximos pasos
+- **Nombres de parámetros ASCII-only**: Anthropic requiere que los nombres de parámetros de tools cumplan `^[a-zA-Z0-9_-]{1,64}$`. No usar `ñ`, tildes, ni otros caracteres Unicode en nombres de parámetros (ej: usar `anio` en vez de `año`). Los docstrings y strings sí pueden tener Unicode.
 
 ## Estado actual
 
-Este proyecto está en fase de diseño. ARCHITECTURE.md contiene la especificación completa de módulos, variables curadas por perfil, y el roadmap de implementación. No hay código implementado todavía — toda la estructura bajo `src/`, `data/`, y `tests/` debe crearse.
+Proyecto implementado y en producción. Versión 0.2.0.
+
+- **Servidor**: `https://censo.wcrprag.shop/mcp` (VM GCP `openclaw-gateway`, Caddy reverse proxy con auto-HTTPS)
+- **Deploy**: `./deploy/deploy.sh` — systemd service `fpr-censo-mcp` en la VM
+- **12 tools** implementados (6 discovery, 3 query, 3 analysis)
+- **Año default**: ACS 2023
+- **Plugin de Cowork**: Publicado en `FPR-Marketplace/fpr-censo` como wrapper con skill y contexto organizacional
 
 ## Dependencias principales
 
